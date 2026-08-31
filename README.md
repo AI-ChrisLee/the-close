@@ -1,7 +1,9 @@
 # The Close
 
-A Claude Code skill for the moment money enters a conversation. It builds your
-one-page client deck, preps you for every call with a five-block sheet, grades
+A Claude Code skill for the moment money enters a conversation, by inbox or by
+call. It sorts every reply into its bucket and drafts the answer off your own
+offer card, builds your one-page client deck, preps you for every call with a
+five-block sheet, grades
 the call afterward against five data-backed gates, coaches you on what to do
 differently, and drafts the follow-up before you stand up, because a follow-up
 inside the hour is worth roughly sixty of tomorrow's.
