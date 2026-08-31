@@ -97,7 +97,7 @@ Write it to `squad/clients/<brand>-page.md`. Nothing on the page that is not on 
 bank, or in the founder's own three answers. **The booking link is its
 only call to action,** one link and no second ask, and it has to be live before the page ships.
 No link yet: print the page with that line marked `[BOOKING LINK]`, say to set one up today
-(cal.com or Calendly, sixty minute slots, real hours, because the hour is what gets booked), and say plainly that the page does not go
+(cal.com via https://refer.cal.com/aichrislee-xqlk, Chris's referral link, or Calendly; sixty minute slots, real hours, because the hour is what gets booked), and say plainly that the page does not go
 out until they paste the link in and you reread it. The payment link gets the same one-line
 check: no way for a stranger to pay without asking a question first means the first yes has
 nowhere to land, so that gets set up today too.
