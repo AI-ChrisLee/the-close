@@ -231,14 +231,19 @@ Under the table, three short parts:
 2. **What they actually bought or refused, in their words.** Verbatim, always.
 3. **The verdict on the deal:** closed · next step dated · stalled · dead. Nothing else.
 
+**Then IDEAS, two or three, for this buyer only.** One short block under that exact label, off
+the transcript and nothing else: what the follow-up should carry, the one small thing to build
+or send next, what their own words say they would pay for next. Each idea points at the line it
+came from, and a fact the transcript does not hold never appears here. Thin beats invented.
+
 One line more, only when block 1's decider question turned up somebody who was not on the call:
 who they are and what they decide. The follow-up then asks for the introduction, never a pitch
 aimed at a person who has heard nothing.
 
 Gate 2 fails one way: the founder started solving. Give that note plainly whenever it happens.
 
-**Then write it down.** Append `## DEBRIEF <date>` to the call sheet, carrying the grade table
-and the three parts. Chat scrollback is not a record, and the resume rule reads that block. **No
+**Then write it down.** Append `## DEBRIEF <date>` to the call sheet, carrying the grade table,
+the three parts and the IDEAS block. Chat scrollback is not a record, and the resume rule reads that block. **No
 sheet on file** is the normal shape of a first call, the one that came off a reply and was never
 prepared: create that same file, named the same way, with the debrief block only, its first line
 marked `NO SHEET, debrief only`, so the pipeline row has a source.
@@ -285,14 +290,15 @@ row tells the truth about a verbal yes. **Signed plus paid is the only thing tha
 client.** One cleared payment is data; four verbal yeses is a story told while rent comes out of
 savings.
 
-Then one line naming the Status the founder moves the row to in their Warm CRM sheet: `TALKING`
-while it is alive (a page that went out is still TALKING), `CLOSED` when it is finished either
-way, `NOT NOW` on a park. `DEMO SENT` belongs to the Warm Start's demo and you never move a row
-to it from here.
+Then one line naming the Status the founder moves the row to on the Warm tab of their Outreach
+Sheet: `TALKING` while it is alive (a page that went out is still TALKING), `CLOSED` when it is
+finished either way, `NOT NOW` on a park. `DEMO SENT` belongs to the Warm Start's demo and you
+never move a row to it from here. The follow-up's date goes with it, into that row's
+`Next touch` cell.
 
 **And hand back the buyer's own lines,** because this hour is the richest source of them in the
-whole system. Debrief part 2 goes back as the one cell for column 5 of the Warm CRM, `What they
-need, in their words`, which the Winning Offer reads off this hour and which stays empty unless
+whole system. Debrief part 2 goes back as the one cell for column 5 of the Outreach Sheet's
+Warm tab, `What they said on the call`, which the Winning Offer reads off this hour and which stays empty unless
 you hand it over. And every verbatim line about their problem, what it costs them, or what they
 already pay for, the objection included, gets appended to `squad/offer-research.md` under
 `## BUYER LANGUAGE`, the heading the Winning Offer writes, each carrying its source in that
@@ -338,16 +344,18 @@ guessed from memory are wrong quietly, which is the expensive way to be wrong.
 Print the batch on one screen, interested and question first because those decay fastest, then
 **STOP.** The founder edits, sends by hand, and says what went out.
 
-**Then log, and their own sheet gets written first.** The Warm CRM is positional, so hand the
-cells back the way the Warm Start does: columns 7 to 10 in order (`Reply` dated, `Follow-up, day
-4`, `Follow-up, day 9`, `Status`), tab separated, one row per person, empty tabs held open so
+**Then log, and their own sheet gets written first.** The Outreach Sheet's Warm tab is
+positional, so hand the cells back the way the Warm Start does: columns 4 to 7 in order
+(`Reply` dated, `What they said on the call`, `Status`, `Next touch` carrying the next
+follow-up's date), tab separated, one row per person, empty tabs held open so
 nothing shifts left, nothing else in that message so it selects clean, pasted starting at the
 Reply cell. **Status comes off the bucket's own row in `references/reply-buckets.md`, never off
 judgment,** because that column moves one way only and a guessed value is expensive to undo. That
 sheet is where the weekly count is read from. Then the pipeline row, in the seven fields above.
 Then every verbatim line about their problem, what it costs them, or what they already pay for,
 appended to `squad/offer-research.md` under `## BUYER LANGUAGE` in that file's label form,
-`(reply · Marcus R · Aug 31)`, and the need line handed back as column 5. Before the card exists
+`(reply · Marcus R · Aug 31)`, and the buyer's own line handed back as column 5, `What they said on
+the call`. Before the card exists
 those quotes go to `squad/warm-notes.md` instead, which is where the Winning Offer reads.
 
 Then the bump and the retired warm touches, by the reference's last section. Nobody gets two

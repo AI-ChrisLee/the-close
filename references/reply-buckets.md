@@ -6,7 +6,8 @@ over any memory of the buckets, and this file and the skill change in one edit.
 
 Every reply gets one bucket, with the reason written next to it in the founder's own terms so
 they can disagree with it. **The Status column is not a judgment call:** the bucket decides it,
-because that column in the Warm CRM moves one way only and a guessed value is expensive to undo.
+because that column in the Outreach Sheet moves one way only and a guessed value is expensive to
+undo.
 
 | Bucket | What it sounds like | The move | The next touch | Status |
 |---|---|---|---|---|
@@ -18,7 +19,8 @@ because that column in the Warm CRM moves one way only and a guessed value is ex
 
 A reply with no ask in it gets no bucket and stays in the warm morning; its row still moves to
 `TALKING`, because a person who answered is a person you are talking to. `DEMO SENT` belongs to
-the Warm Start and never gets written from a reply.
+the Warm Start and never gets written from a reply. The bucket's next touch is the date that goes
+back in the row's `Next touch` cell; a date nobody wrote down is a follow-up that never fires.
 
 ## Tiebreaks, so the same reply always lands the same way
 
