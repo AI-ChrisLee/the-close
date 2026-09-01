@@ -22,7 +22,7 @@ Install this skill: https://github.com/AI-ChrisLee/the-close
 Clone it into my skills folder as the-close.
 ```
 
-Then open a NEW session. That is the install.
+Then type / and look for it; it normally shows up right away, and a new session brings it up if not. That is the install.
 
 ```bash
 git clone https://github.com/AI-ChrisLee/the-close ~/.claude/skills/the-close
