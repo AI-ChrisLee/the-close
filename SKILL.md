@@ -124,7 +124,7 @@ a way to pay nor a date. If the
 pipeline already carries the row and the thread, read it, play it back in two lines, ask only
 what is missing. Then read, and say which sources opened: the
 offer card, the credibility bank, the prospect's row in `squad/pipeline.md` and the thread, their
-warm row in `squad/warm-list.md` with their `squad/warm/drafts/NN-firstname-lastname.md` file and
+warm row in `squad/warm-list.md` with their block in `squad/warm-notes.md` and `squad/draft-offer.md` and
 their verbatim lines in `squad/warm-notes.md`, the buyer language in `squad/offer-research.md`,
 and the voice every verbatim block gets written in (`VOICE NOTES` in the bank, plus the roots
 file's voice row where a repo carries one). The one line that shows what they actually want gets copied out and
@@ -327,9 +327,9 @@ is the thing that reads as a bot.
 
 **No offer card yet is normal here,** because the first replies land in the warm week and the
 card gets built out of them. The card gates a price, not an answer. With no `squad/business.md`,
-draft off the WORKING LINE at the top of `squad/warm-list.md`, put no number in any message, and
-answer a price question the honest way: it is not priced yet, so what would it be worth to them?
-Their answer is the most valuable line of that week. It goes to `squad/warm-notes.md` verbatim,
+draft off `squad/draft-offer.md`, the serve ideas already written for that person after their
+call, put no number in any message, and answer a price question the honest way: it is not priced
+yet, so what would it be worth to them? Their answer is the most valuable line of that week. It goes to `squad/warm-notes.md` verbatim,
 and the Winning Offer builds the card out of it.
 
 Five buckets, the reason written next to each in the founder's own terms so they can disagree:

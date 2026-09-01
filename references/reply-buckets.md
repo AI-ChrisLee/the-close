@@ -73,7 +73,7 @@ deal it was written for.
 
 One bump, counted day 4 from the message that went out, and nothing after it. **A reply retires
 that person's unsent warm touches,** because those were written for silence: strike the day 4 and
-day 9 touches in `squad/warm/drafts/NN-firstname-lastname.md` by name, and say in one line that
+day 9 touches for that person by name, and say in one line that
 you did. The draft file stops being the schedule the moment they answer, and a touch left
 standing in it fires on top of this thread the next warm morning. Nobody gets two messages in one
 day.
