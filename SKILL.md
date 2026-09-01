@@ -124,7 +124,7 @@ a way to pay nor a date. If the
 pipeline already carries the row and the thread, read it, play it back in two lines, ask only
 what is missing. Then read, and say which sources opened: the
 offer card, the credibility bank, the prospect's row in `squad/pipeline.md` and the thread, their
-warm row in `squad/warm-list.md` with their block in `squad/warm-notes.md` and `squad/draft-offer.md` and
+person's block in `squad/warm-notes.md` and `squad/draft-offer.md` and
 their verbatim lines in `squad/warm-notes.md`, the buyer language in `squad/offer-research.md`,
 and the voice every verbatim block gets written in (`VOICE NOTES` in the bank, plus the roots
 file's voice row where a repo carries one). The one line that shows what they actually want gets copied out and
