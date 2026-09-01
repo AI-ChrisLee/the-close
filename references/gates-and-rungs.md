@@ -1,8 +1,9 @@
 # Gates and rungs
 
-Read this before grading a call (phase 3) and before printing block 3 of a sheet (phase 2).
-It carries the reasoning behind the five gates and the whole descope ladder. The SKILL body
-carries what passes; this file carries why, and what to do when the number has to move.
+Read this before deciding the rungs (beat 1), before printing block 3 of a sheet (beat 3),
+and before grading a call (beat 4). It carries the reasoning behind the five gates and the
+whole descope ladder. The SKILL body carries what passes; this file carries why, and what to do
+when the number has to move.
 
 ## Why each gate is what it is
 
@@ -34,12 +35,13 @@ Flipping that ratio is a pitch guessing out loud at what they care about for hal
 
 ## The descope rungs
 
-Three rungs, named on the sheet before the call, so a rung gets read instead of invented under
-pressure.
+Three rungs, decided once at beat 1 and written into `squad/sales.md` under `## THE RUNGS`, then
+read onto the sheet at beat 3, so a rung gets read instead of invented under pressure. This file
+is the only home of the ladder; the sales document and the sheet both point here.
 
 | Rung | What it is |
 |---|---|
-| FULL | What the card sells, nothing removed |
+| FULL | What the offer document sells, nothing removed |
 | MIDDLE | They supply the material, on a longer timeline, with fewer revision rounds |
 | FLOOR | Only the piece that touches money, the rest a separate job later |
 
@@ -53,6 +55,6 @@ Do not answer it as a terms question until you have checked which question it is
 1. Ask the temperature question first: **"On a scale of 1 to 10, how badly do you want this?"**
 2. **At 7 or below, stop selling.** They are not blocked on terms, they are not sold. The block
    is belief, and a payment plan handed to a 6 is a chargeback with extra steps.
-3. At 8 or above, offer only a payment term the card already carries.
-4. A card carrying no payment term means the answer is a descope rung, never a term the founder
-   invents while the money is moving.
+3. At 8 or above, offer only a payment term `squad/business.md` already carries.
+4. An offer document carrying no payment term means the answer is a descope rung, never a term the
+   founder invents while the money is moving.

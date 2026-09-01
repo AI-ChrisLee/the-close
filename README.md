@@ -1,40 +1,51 @@
-# The Close
+# The Close: install in 60 seconds
 
-A Claude Code skill for the moment money enters a conversation, by inbox or by
-call. It sorts every reply into its bucket and drafts the answer off your own
-offer card, builds your one-page client deck, preps you for every call with a
-five-block sheet, grades
-the call afterward against five data-backed gates, coaches you on what to do
-differently, and drafts the follow-up before you stand up, because a follow-up
-inside the hour is worth roughly sixty of tomorrow's.
+The part of an Execution Squad that runs the money conversation. Warm Extract listened and the
+Winning Offer decided; this one sells. It builds ONE file, `squad/sales.md`, your sales document:
+what you say, what it costs, the proof you use, the questions that get a buyer to price their own
+problem, and every objection real buyers have already thrown at you with what actually moved them.
+Every call writes back into it, so call six is better than call one.
 
-It never sends anything. You run the call, you send the follow-up.
+## What to bring
 
-Built and used by [AI Chris Lee](https://www.youtube.com/@aichrislee). Part of
-the Execution Squad system. Skills update every season; pull fresh when you run.
-
-## Install (one minute)
-
-Open Claude Code, paste this, and send:
-
-```
-Install this skill: https://github.com/AI-ChrisLee/the-close
-Clone it into my skills folder as the-close.
-```
-
-Then type / and look for it; it normally shows up right away, and a new session brings it up if not. That is the install.
-
-```bash
-git clone https://github.com/AI-ChrisLee/the-close ~/.claude/skills/the-close
-```
+Your offer document at `squad/business.md` and your proof at `squad/credibility-bank.md`, both written
+by the Winning Offer. Then four things only you know: your booking link, your payment link, what
+delivery looks like in days, and the way you say your price out loud. Replies can be sorted before
+any of that exists; a price cannot be quoted before it does.
 
 ## Run it
 
-```
-/the-close
-```
+Open Claude Code in your business folder and say: **"Build my sales document."** It asks four
+questions, writes the document, shows you the client page it renders from it, and stops for your
+yes on the price line and the plan. (Downloaded this folder on its own? Drop the whole thing into
+`.claude/skills/`, then quit and reopen Claude Code.)
 
-Or say: "Write my call sheet for [name]" before the call, and "I just got off
-the call" after it. The five gates it grades every call against: the buyer
-talked more than you, the problem got priced out loud, one price then silence,
-a next step on the call, the follow-up inside the hour.
+After that, four sentences run everything:
+
+- **"Sort my replies"** and paste the batch. Every reply lands in one of five buckets with a draft
+  under it, sorted so the ones that decay fastest are on top.
+- **"Write my call sheet for [name]"**, the night before. One page, five blocks, timed to the hour.
+- **"Prep me for the call"**, minutes before. One screen.
+- **"I just got off a call"** and paste the transcript. It grades the hour against five gates,
+  names the one thing to fix, drafts the follow-up you send inside the hour, and updates your
+  sales document with what the call taught.
+
+Stopped halfway, or closed the laptop? Say **"continue the Close"** in a new window. It reads what
+is on disk and picks up at the first thing missing.
+
+## No tools to wire
+
+This one runs on your own files and whatever you paste. Nothing to install, no keys, no scraping.
+
+## What you get
+
+One sales document that gets sharper every call, one client-facing page, a call sheet per
+prospect with its grades and follow-up on it, and a pipeline where every row says the truth about
+the money. It never sends anything: it drafts and stages, and your hand presses send. Signed plus
+paid is the only thing that makes a client.
+
+## What comes next
+
+The part that turns your first 90 days into a plan and prints today's tasks every morning. It
+arrives one episode at a time. Subscribe (the link under every episode) and each new part lands in
+your inbox the day its episode goes live.
