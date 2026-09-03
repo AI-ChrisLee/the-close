@@ -121,15 +121,15 @@ any message.
 **No `squad/credibility-bank.md`, or one thinner than the proof section needs.** Not a stop. Ask
 the founder for one win with its mechanism, in their own words, at the beat 1 gate where they are
 already answering four questions. Print that receipt marked `(founder's own, not yet banked)` in
-THE PROOF I USE, carry the flag on the document's footer line, take THE REFUSALS from
+THE PITCH's proof part, carry the flag on the document's footer line, take THE REFUSALS from
 `squad/business.md` and the founder's own answer, and say in one line that the Winning Offer's
 step 9 builds the bank properly.
 
 ## Beat 1 · THE SALES DOCUMENT
 
 Trigger: "build my sales document", or "run the Close" before any call exists. This is the one
-output of this lesson. It holds what the founder says when money is on the table, and every later
-beat reads it instead of rebuilding it.
+output of this lesson, and it is a script: the founder opens it with a buyer on the line and runs
+it top to bottom. Every later beat reads it instead of rebuilding it.
 
 **Ask four things, in one message, and then build.** These four live nowhere on disk:
 
@@ -139,13 +139,27 @@ beat reads it instead of rebuilding it.
    done by when.
 4. The price line the way they will actually say it out loud, in their own words.
 
+Four, not five. The open gets built out of the offer document and the answers already on that
+list, and is never asked for.
+
 Then read `references/sales-document.md` and write `squad/sales.md` in exactly that structure,
 every section sourced the way that file says. Nothing in it that is not in the offer document, in
-the bank, or in those four answers. The standing half (who, the sentence, the promise, the proof,
-the plan, the price, the warranty, the rungs, the diagnosis set, the refusals) is built here. The
-accumulating half (the objections ledger, what buyers said, the call record, the one fix, what the
-calls are asking for) is written empty, each section carrying "(none yet, no call logged)", so
-beat 5 has a place to write and so the founder can see what the first call is going to fill.
+the bank, or in those four answers.
+
+**Write it in spoken order.** The five guardrails first, because they are the rules the hour runs
+under: who I sell to, the refusals, the warranty, the rungs, the one fix. Then the eight script
+sections in the order of the hour: the open, the questions, the pitch, the price, the ask, when
+they push, how the hour ends, the follow-up. Then the accumulating half last (the objections
+ledger, what buyers said, the call record, what the calls are asking for), written empty, each
+section carrying "(none yet, no call logged)", so beat 5 has a place to write and so the founder
+can see what the first call is going to fill.
+
+**Write words, not material.** Every script section holds at least one sentence the founder could
+read aloud with a buyer on the line: the open's three lines, the thirteen questions in ask order,
+the pitch's four beats, the price sentence, the ask line, the four objection lines, the four endings,
+and the follow-up's three parts. A section that describes what to say instead of saying it is a
+section he has to translate in his head while someone is talking, and that is where the hour gets
+lost.
 
 **The three rungs get decided here, not under pressure.** FULL, MIDDLE and FLOOR, written out of
 `references/gates-and-rungs.md` for this offer: what comes out if the number has to move. Never
@@ -166,12 +180,22 @@ not go out carrying either one.
 present. Each conditional heading is present or its condition is false, and there are two
 conditionals: `## THE WARRANTY, AS I SAY IT` (absent when the offer document carries no warranty)
 and `## THE RUNGS` (absent only when the offer is one price with nothing honestly removable, which
-is rare and gets said out loud). Never invent content so a heading can appear, and never write a
-section fuller than its sources: an accumulating section with no call behind it reads "(none yet,
-no call logged)" so the next read sees an intentional gap instead of a missing section.
+is rare and gets said out loud). **Then one more, on every script section: a section, or a labeled
+beat inside one, with no quoted spoken line in it has failed and gets rewritten before anything
+prints.** **And one last pass on the brackets: no angle bracket survives into a spoken line.** An
+angle bracket is a slot you fill from their files, so one still standing in a blockquote is a slot
+you could not fill, and it is either filled or turned into a square-bracket blank the buyer fills
+on the call. Never invent content so a heading can appear, and never write a section fuller than
+its sources: an
+accumulating section with no call behind it reads "(none yet, no call logged)" so the next read
+sees an intentional gap instead of a missing section.
 
-**STOP · GATE.** Print the document whole, then stop on three things, all of them the founder's:
+**STOP · GATE.** Print the document whole, then stop on four things, all of them the founder's,
+and every one of them a line no file on disk could answer for him:
 
+- **The open's agenda sentence.** The first thing out of his mouth, and the only line before the
+  pitch that promises anything. It has to be a sentence he would actually open with, and it never
+  promises more than the offer document does.
 - **The price line.** They confirm the number and the sentence they will say it in. A number they
   cannot say evenly is one they will discount on the call. You never adjust a price, never invent
   a tier, a discount or a payment term, and never print one they did not confirm.
@@ -188,10 +212,12 @@ that path, so a later skill resolves it without guessing.
 
 ## Beat 2 · THE PAGE
 
-AUTO, out of the document, no new questions. Four sections, in this order, no fifth: **the
-promise** (one line, in the buyer's situation), **the proof** (the document's receipts, each with
-its mechanism, and nothing padded in to hit a count), **the plan** (the dated steps, in days or
-weeks), and **the price** (the number, flat, with what is included under it).
+AUTO, out of the document, no new questions. Three of the four parts come out of `## THE PITCH ·
+minutes 40 to 50`, which is where the promise, the receipts and the dated steps now live, and the
+fourth out of `## THE PRICE, AND THE SILENCE · minute 50`. Four sections, in this order, no fifth:
+**the promise** (one line, in the buyer's situation), **the proof** (the pitch's receipts, each
+with its mechanism, and nothing padded in to hit a count), **the plan** (the pitch's dated steps,
+in days or weeks), and **the price** (the number, flat, with what is included under it).
 
 Write it to `squad/clients/<brand>-page.md` and print it so they see what a buyer sees. **The
 booking link is its only call to action,** one link and no second ask, and it has to be live
@@ -209,7 +235,7 @@ who the call is with, where the thread lives (paste it), and when the call is. I
 and ask only what is missing.
 
 Then read: `squad/sales.md` first, which already holds the price line, the proof, the rungs, the
-diagnosis set and every objection answer that has ever worked; then this person's own words, from
+thirteen questions and every objection answer that has ever worked; then this person's own words, from
 the thread, from their block in `squad/warm-notes.md` and `squad/draft-offer.md`, and from
 `## BUYER LANGUAGE` in `squad/offer-research.md`; then the voice (`## 6 · VOICE NOTES` in the
 bank, plus the roots file's voice row where a repo carries one). Say which sources opened. **The
@@ -217,7 +243,7 @@ one line that shows what they actually want gets copied out and used twice,** in
 the pitch: from their thread, or from their warm files when no thread exists yet.
 
 **No `squad/sales.md` yet** and the sheet has nowhere to get its price line, its proof, its rungs
-or its diagnosis set: run beat 1 first, in the same session. It is four questions, and a sheet
+or its questions: run beat 1 first, in the same session. It is four questions, and a sheet
 built without it is a sheet that invents the parts that matter most.
 
 **A real name with no date yet** is the normal state the night this runs, and it is not a stop:
@@ -247,7 +273,8 @@ decision like this?" Then "What made you book this call?" Under it, in bold: **w
 down word for word.** It comes back in the pitch.
 
 **Block 2 · Diagnosis, 11 to 14 questions, written for this business. Minutes 5 to 40.** Take the
-document's diagnosis set and tune every question to this operation, never to the founder's offer.
+script's thirteen questions, under `## THE QUESTIONS I ASK · minutes 5 to 40`, and tune every one
+of them to this operation, never to the founder's offer.
 
 | Group | How many | What they do |
 |---|---|---|
@@ -265,14 +292,22 @@ in their hands and nothing in the founder's. The method under the whole block is
 the gap between where they are and the state they described, get them to price staying in it, sell
 the gap. The first call is a diagnosis, not a pitch.
 
-**Block 3 · The pitch, verbatim. Minutes 40 to 50.** One paragraph, after the diagnosis, four
-parts in order: the proof (one receipt with its mechanism), the promise (the document's sentence
-in their situation), the plan (the dated steps), and the price. Flat, no apology, then their own
-number against it: "You said one customer is worth [their number]. This costs less than [the
-comparison]." Under it, the three rungs off the document, FULL, MIDDLE and FLOOR, so a rung gets
-read instead of invented. **Never the same thing for less money.**
-`references/gates-and-rungs.md` also carries the move when they ask to split the payment, which is
-the most common live ask and is not a terms question until the temperature question says it is.
+**Block 3 · The pitch and the price, verbatim. Minutes 40 to 50.** Two labeled parts, the way the
+script splits them, because the number gets its own moment and its own silence.
+
+*The pitch, four beats in order.* **The playback**, first, and the yes on it: "So if I have this
+right, every month this stays as it is costs you [their words]. Is that fair?" It is the pitch's
+opening move, and without it the rest is a guess said with confidence. Then **the proof** (one
+receipt with its mechanism), **the promise** (the document's sentence in their situation), and
+**the plan** (the dated steps in days). Every one of the four written out as a line he can read.
+
+*The price, and the silence. Minute 50.* The number after the pitch, never inside it. Flat, no
+apology, then their own number against it: "You said one customer is worth [their number]. This
+costs less than [the comparison]." Then, in bold: **say nothing.** Under it, the three rungs off
+the document, FULL, MIDDLE and FLOOR, so a rung gets read instead of invented. **Never the same
+thing for less money.** `references/gates-and-rungs.md` also carries the move when they ask to
+split the payment, which is the most common live ask and is not a terms question until the
+temperature question says it is.
 
 **Block 4 · The objections, answered. Minutes 50 to 60, with block 5.** Start from the document's
 objections ledger, which carries what real buyers already raised and what actually moved them,
@@ -285,8 +320,9 @@ voice, ending in a question so the ball goes back. The do-it-ourselves answer ne
 tool cannot do it. It agrees, then names what is being bought: the decision about what to build, a
 date it ships by, one person who owns it when it breaks.
 
-**Block 5 · The ask, verbatim, and the silence. Minutes 50 to 60.** One line: **"Which one do you
-want?"** Never "Do you want this?", because a yes-or-no question has a free no built into it.
+**Block 5 · The ask, verbatim, and the silence. Minutes 50 to 60.** One line: **"So how do you want
+to start, this week or next?"** Never "Do you want this?", because a yes-or-no question has a free
+no built into it. Two real options, both of them a start, and neither one leaks a rung.
 Then, in bold: **say nothing.** It is a few seconds and it feels like a minute, and whoever fills
 it is deciding. Then the three lines after a yes: the payment link off the document, that nothing
 starts until the money clears, and the start date said out loud with the invite sent before the
@@ -330,7 +366,7 @@ Under the table, three short parts:
    changed, quoting the line: "at minute nine you answered the price question they had not asked
    yet; the answer was another cost question."
 2. **What they actually bought or refused, in their words.** Verbatim, always.
-3. **The verdict on the deal:** closed · next step dated · stalled · dead. Nothing else.
+3. **Where the deal stands:** closed · next step dated · stalled · dead. Nothing else.
 
 **Then IDEAS, two or three, for this buyer only.** One short block under that exact label, off the
 transcript and nothing else: what the follow-up should carry, the one small thing to build or send
@@ -355,22 +391,29 @@ AUTO, in the same breath as the debrief. This is the half of the skill that make
 than call one, and it writes into `squad/sales.md` in place. Never a second document, never a new
 file per call.
 
-Five sections take the write, and `references/sales-document.md` owns what each one holds:
+Seven sections take the write, each addressed by its exact heading string, and
+`references/sales-document.md` owns what each one holds:
 
-- `## THE CALL RECORD` gains one row: the date, the name, the five gate grades, the verdict, and
+- `## THE CALL RECORD` gains one row: the date, the name, the five gate grades, where the deal stands, and
   whether the previous call's one fix held.
 - `## THE OBJECTIONS LEDGER` gains the objection in the buyer's own words, or increments the count
   on one already there, with what answered it and what did not. The count is what makes it
   evidence.
+- `## WHEN THEY PUSH · minutes 50 to 60` gains a promoted line. When a ledger row's "what moved
+  it" cell holds a sentence that worked on a real call, that sentence replaces that objection's
+  written line and stands in the script marked `(worked on N calls)`, the count coming off the
+  ledger row. The ledger keeps the evidence, the script keeps the sentence, and the same words are
+  never written twice. A promoted line that stops working goes back to the ledger's "what did not"
+  cell instead of quietly standing in the script.
 - `## WHAT BUYERS SAID` gains the cost sentence and any verbatim line about what the problem
   costs or what they already pay for, each carrying its source label.
-- `## THE ONE FIX` is replaced, not appended: this call's one thing, in one line.
+- `## THE QUESTIONS I ASK · minutes 5 to 40` gets marked: a question that produced a cost sentence
+  gets a tick, and a question nobody could answer twice gets replaced with the one the founder
+  asked live that worked.
+- `## THE ONE FIX` is replaced, not appended: this call's one thing, in one line. It sits at the
+  top of the script, where he reads it before the next open rather than after the last hour.
 - `## WHAT THE CALLS ARE ASKING FOR` gains the IDEAS block, deduplicated. An idea three different
   buyers asked for gets marked, because that is the line between a hunch and a signal.
-
-`## THE DIAGNOSIS SET` gets marked too: a question that produced a cost sentence gets a tick, and
-a question nobody could answer twice gets replaced with the one the founder asked live that
-worked.
 
 **No `squad/sales.md` yet**, which is the shape of a first call that came off a reply: the debrief
 block on the sheet holds everything, and the buyer's lines still go where beat 7 sends them. Say
@@ -378,10 +421,12 @@ in one line that the update is parked, and run beat 1 the moment `squad/business
 carries these lines into the document's accumulating half on its first build.
 
 **STOP · GATE, and only when the call argues with a standing line:** the price, the promise, the
-warranty, a proof, a rung, or a dated step. Print the line as it stands, the buyer's words that
-argue with it, and the change you propose, then stop. Nothing in the standing half moves without
-the founder's yes, and the price and the promise never move here at all beyond what
-`squad/business.md` already carries. **When the ledger's count hits three calls raising the same
+warranty, a proof, a rung, a dated step, or one of the script's own spoken lines, which is the
+open's agenda line, the ask line, or a line already promoted into WHEN THEY PUSH. Promoting a line
+the founder's own call proved is AUTO; changing one a call argued with is not. Print the line as
+it stands, the buyer's words that argue with it, and the change you propose, then stop. Nothing in
+the guardrails and nothing the script says out loud moves without the founder's yes, and the price
+and the promise never move here at all beyond what `squad/business.md` already carries. **When the ledger's count hits three calls raising the same
 objection, say so in one line and send them back to the Winning Offer:** the offer document gets
 rewritten there, never here, and never before three.
 
@@ -421,8 +466,8 @@ Priya Shah · cold, September list · closed won · 2026-08-31 · none · start 
 
 The third field holds one of seven values and never a sentence: the five buckets from
 `references/reply-buckets.md` (`interested`, `question`, `objection`, `not now`, `no`), plus
-`signed, not paid` for a yes whose money has not cleared, plus `closed won` once it has. The
-verdict maps onto them: next step dated is `interested`, a live price push is `objection`, stalled
+`signed, not paid` for a yes whose money has not cleared, plus `closed won` once it has.
+Where the deal stands maps onto them: next step dated is `interested`, a live price push is `objection`, stalled
 is `not now`, dead is `no`. The money field stays blank until a payment clears, then carries the
 amount and the date, and `signed, not paid` next to a blank money field is how the row tells the
 truth about a verbal yes. **Signed plus paid is the only thing that makes a client.** One cleared
@@ -514,6 +559,7 @@ the existing sheet and print **one screen**, nothing longer:
 | Who | Name, business, the one line from their thread |
 | Open | The three lines, verbatim |
 | The number to get | "What is one new customer worth to you?" |
+| If they ask the price early | "It depends on what we find in the next thirty minutes, and I would rather quote you than guess. Give me until minute fifty and you will get one number, not a range." Then back to the question you were on |
 | The price | The number, flat, and the one comparison sentence |
 | Most likely objection | One, with its first sentence |
 | The clock | 0-5 open · 5-40 diagnose · 40-50 pitch · 50-60 ask |
@@ -521,13 +567,13 @@ the existing sheet and print **one screen**, nothing longer:
 
 No sheet on file: say so, then run beat 3 compressed, the read, one confirm, the sheet.
 
-## The verdict
+## Where the deal stands
 
 **One of four words and nothing else:** closed · next step dated · stalled · dead.
 It is written once, in the debrief, and beat 7's table owns where it maps in the pipeline row and
-on the Outreach Sheet. Everything the call raised that is not the verdict has a home: the fix goes
+on the Outreach Sheet. Everything the call raised that those four words do not carry has a home: the fix goes
 to `## THE ONE FIX`, the ideas to `## WHAT THE CALLS ARE ASKING FOR`, the objection to the ledger.
-Nothing rides inside the verdict.
+Nothing rides inside those four words.
 
 ## Rules
 
