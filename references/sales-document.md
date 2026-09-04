@@ -1,34 +1,25 @@
 # The sales script · `squad/sales.md`
 
-One file. This order. It is written at beat 1 and updated in place after every call at beat 5,
-never restarted, never duplicated per prospect, never confused with the offer document. The run
-map calls this beat THE SALES DOCUMENT and the path never changes. What the file holds is a
-script.
+One file. This order. It is written at beat 1 and updated in place after every call at beat 4,
+never restarted, never duplicated per person, never confused with the offer document. The run
+map calls this beat THE SCRIPT and the path never changes. What the file holds is a script: one
+general script, and PRE adds the one line that is about the buyer on today's call.
 
 The founder opens it with a buyer on the line and runs it top to bottom: the rules he reads
 before the hour, then the hour itself in the order it happens, then what the calls have taught.
 **Anything he would have to translate in his head while someone is talking is a defect.**
 
-**Where the headings moved.** `## THE DIAGNOSIS SET` is now `## THE QUESTIONS I ASK · minutes 5
-to 40`. `## THE SENTENCE` is now the hold line in `## THE OPEN · minutes 0 to 5`, said only when a
-buyer asks what this is before anything has been asked of him. `## THE PROMISE`, `## THE PROOF I
-USE` and `## THE PLAN` are now labeled parts inside `## THE PITCH · minutes 40 to 50`, which also
-gains a new first beat, the playback. The plan's booking and payment lines sit in `## HOW THE HOUR
-ENDS · minutes 55 to 60`. `## THE PRICE, SAID OUT LOUD` is now `## THE PRICE, AND THE SILENCE ·
-minute 50`. `## THE ONE FIX` keeps its exact string and moves to the top, where it is read before
-the call instead of after it. The file's own title line is now `# THE SALES SCRIPT · <brand>`.
-
 ## The three parts, governed differently
 
 - **The guardrails** (WHO I SELL TO down through THE ONE FIX) are the rules the hour runs under,
   not lines he reads out. Who the hour is for, what is never said, the warranty wording, the
-  rungs, the one thing to do differently today. They change only at a gate: beat 1's, or beat 5's
-  conditional one when a real call argued with a line.
+  rungs, the one thing to do differently today. They change only at a gate: beat 1's, or the
+  conditional one at beat 4 or beat 5 when a call, or an idea the founder typed, argues with a line.
 - **The script** (THE OPEN down through THE FOLLOW-UP, INSIDE THE HOUR) is what he says, in the
   order he says it. **Every section here carries at least one sentence he can read out loud.** Its
   price, promise and warranty are copies of `squad/business.md`, never edits of it.
 - **The accumulating half** (THE OBJECTIONS LEDGER down through WHAT THE CALLS ARE ASKING FOR) is
-  what the calls taught. Beat 5 writes it AUTO, no permission needed, because it is a record of
+  what the calls taught. Beat 4 writes it AUTO, no permission needed, because it is a record of
   what happened rather than a decision about what to say.
 
 An accumulating section with nothing behind it yet is written as `(none yet, no call logged)`, so
@@ -36,7 +27,7 @@ the next read sees an intentional gap rather than a missing section.
 
 **Read, or asked?** Four things are read out loud as they stand: the open's lines, the pitch's four
 beats, the price sentence, the ask line. Everything else is asked and answered like a person.
-Thirteen questions recited off a page is an interview, and gate 1 is lost in the first five
+13 questions recited off a page is an interview, and gate 1 is lost in the first five
 minutes. That sentence prints in the document, under THE QUESTIONS I ASK's two rules, which is the
 section it is about and the one he is looking at when it matters.
 
@@ -101,7 +92,7 @@ Three lines, no small talk. He says these, then stops talking.
 > today>`, then I will show you what I would do and what it costs, and by the end we decide."
 
 The agenda never promises more than THE PITCH's promise does. When the offer document carries an
-honesty line, that limit goes in this sentence, in one clause: seven days to running, not seven
+honesty line, that limit goes in this sentence, in one clause: 7 days to running, not 7
 days to clients.
 
 **2. The decider check.**
@@ -115,6 +106,13 @@ days to clients.
 **Write the answer down word for word.** It comes back in the pitch, and paraphrasing it there is
 what makes a pitch sound like a brochure.
 
+**The slot: the one personal question.** Filled per call by PRE, off
+`squad/clients/<first-last>/pre/<date>.md`, never by the build. Its shape is [what I saw] + [what
+it suggests] + [an open question]; it proves the founder looked, and it never pitches. Asked here,
+right after the answer above, before the diagnosis.
+
+> [the one personal question, off today's pre file]
+
 **Three lines held in reserve.** The first is the hold line, for when they ask what this is before
 he has asked anything. It is the offer document's one sentence, said once, then straight back to a
 question.
@@ -122,12 +120,12 @@ question.
 > "`<the offer document's one sentence>`. Before I get into that, tell me how `<the work>` runs
 > for you right now."
 
-The second is the price line, for "how much is it" at minute eight. The number belongs at minute
+The second is the price line, for "how much is it" at minute 8. The number belongs at minute
 50 and this is what holds it there without dodging, so it ends in a question and the ball goes
 back.
 
-> "It depends on what we find in the next thirty minutes, and I would rather quote you than guess.
-> Give me until minute fifty and you will get one number, not a range. [back to the question you
+> "It depends on what we find in the next 30 minutes, and I would rather quote you than guess.
+> Give me until minute 50 and you will get one number, not a range. [back to the question you
 > were on]"
 
 The third is the disqualifying line, off WHO I SELL TO, said the moment the refused buyer shows
@@ -136,20 +134,20 @@ up in their answers.
 > "This works when `<what the buyer already has>`. If `<that is not true yet>`, I will say so and
 > we stop, because there is nothing to `<what the offer does>` yet."
 
-**The rule under this block, printed with it:** after the third line, stop talking. Gate 1 is
+**The rule under this block, printed with it:** after the question, stop talking. Gate 1 is
 decided in the first five minutes, and the founder decides it.
 
 ## THE QUESTIONS I ASK · minutes 5 to 40
 Gate 2 DIAGNOSE.
 
-Thirteen questions, in this ask order, four groups. Written once here off the offer document and
-`## BUYER LANGUAGE`, tuned to each person at beat 3, never rewritten from scratch per call.
-Asked, not recited.
+13 questions, in this ask order, four groups. Written once here off the offer document and the
+quotes in `squad/clients/*/notes.md`, asked as written on every call, never rewritten per person;
+the one line that is about this buyer is the open's personal question. Asked, not recited.
 
 **Where they are now.**
 
 1. "Walk me through how `<the work this offer fixes>` gets done right now, start to finish. Who touches it?"
-2. "How much went out in the last thirty days, and where?"
+2. "How much went out in the last 30 days, and where?"
 3. "Where do the clients you closed this year actually come from?"
 4. "What do you sell, and what does it cost?"
 
@@ -163,7 +161,7 @@ Asked, not recited.
 to say the cost out loud, in their own numbers.
 
 8. "When a prospect finds you today and `<what this offer builds>` is not there, what happens to that deal?"
-9. "If nothing changes for six months, what does that look like in money?"
+9. "If nothing changes for 6 months, what does that look like in money?"
 10. "How many deals last year did you lose to someone worse than you who was easier to find?"
 11. **"What is one new customer worth to you?"**
 
@@ -183,10 +181,10 @@ his.
 
 **And the read-or-asked line, printed with them,** because this is the section it is about: four
 things get read out loud as they stand, the open's lines, the pitch's four beats, the price
-sentence and the ask line. These thirteen are asked and answered like a person. Recited off a page
+sentence and the ask line. These 13 are asked and answered like a person. Recited off a page
 they are an interview, and gate 1 is lost in the first five minutes.
 
-Beat 5 marks this section: a question that produced a cost sentence gets a tick, a question two
+Beat 4 marks this section: a question that produced a cost sentence gets a tick, a question two
 buyers could not answer gets replaced by the one the founder asked live that worked. The ticks
 stay visible while he is asking. This is the part of the script that improves fastest.
 
@@ -295,7 +293,7 @@ back. Four recur. Every line carries a mark: `(worked on N calls)` once the ledg
 
 **The partner who has to agree.**
 > "Makes sense, I would not decide this alone either. What will they ask you that you would rather
-> not answer secondhand? Let's get them on fifteen minutes and I will answer it."
+> not answer secondhand? Let's get them on 15 minutes and I will answer it."
 
 **We could do it ourselves.** This one never argues the tool cannot do it. It agrees, then names
 what is being bought.
@@ -311,7 +309,7 @@ what is being bought.
   how badly do you want this?"** At 7 or below he stops selling, because the block is belief and
   not terms. The whole move lives in `references/gates-and-rungs.md`.
 
-**How a line gets here.** Beat 5 writes the objections ledger, and when a row's "what moved it"
+**How a line gets here.** Beat 4 writes the objections ledger, and when a row's "what moved it"
 cell holds a sentence that worked on a real call, that sentence is promoted here as the standing
 line and the written one is replaced. Evidence stays in the ledger, speech stays here, and the
 same words are never written twice. A promoted line that stops working goes back to the ledger's
@@ -366,7 +364,7 @@ attachment unless the page is the attachment.
 
 **The recap is in their words.** Their problem and their cost sentence quoted back, not his
 summary of them. No cost sentence said on the call, which is what a failed gate 2 means: quote
-their problem sentence instead and put the cost question in writing. "If nothing changes for six
+their problem sentence instead and put the cost question in writing. "If nothing changes for 6
 months, what does that look like in money?"
 
 **The one number**, said once, the same way it was said on the call. Never a new one, never a
@@ -388,25 +386,26 @@ it is the section that makes call six better than call one.
 
 The count is the evidence. **Three calls raising the same objection sends the founder back to the
 Winning Offer** to rewrite the offer document; the rewrite never happens here, and never before
-three. A row can also come from a reply, labeled `(reply · Marcus R · Aug 31)` in the source cell,
+three. A row can also come from a reply, labeled `(reply · Marcus R · 2026-09-04)` in the source cell,
 because an objection is evidence wherever it arrives.
 
 A "what moved it" cell holding a sentence that worked on a real call gets promoted into WHEN THEY
 PUSH as that objection's standing line. The row stays here; the sentence gets said there.
 
 ## WHAT BUYERS SAID
-Verbatim lines only, each with its source label in the same form the Winning Offer uses: `(sales
-call · Marcus R · Aug 31)`. What the problem costs them, what they already pay for, what they
+Verbatim lines only, each with its source label in the same form Warm Extract uses: `(sales
+call · Marcus R · 2026-09-04)`, with ` · rough` added when the transcript was app-written. What the problem costs them, what they already pay for, what they
 asked for that nobody sells. Never a paraphrase, never a line nobody said.
 
 This is where THE PITCH gets the buyer's own situation wording, where THE QUESTIONS I ASK gets new
 wording when a question keeps landing flat, and where THE FOLLOW-UP's recap quotes come from.
-These are the same lines beat 7 appends to `squad/offer-research.md`.
+These are the same lines beat 4 appends to the buyer's own `squad/clients/<first-last>/notes.md`,
+which is where the Winning Offer reads them.
 
 ## THE CALL RECORD
 One row per call, newest last. It feeds no spoken line. It is the score.
 
-| Date | Name | G1 | G2 | G3 | G4 | G5 | Where it stands | Last call's fix |
+| Date | Name | LISTEN | DIAGNOSE | ONE PRICE | NEXT STEP | FOLLOW-UP | Where it stands | Last call's fix |
 |---|---|---|---|---|---|---|---|---|
 
 Gates are PASS or FAIL, never a maybe. Where it stands is one of four words: closed · next step
@@ -430,7 +429,7 @@ Formatting: plain markdown, no HTML. Tables for the rungs, the ledger and the ca
 lines in blockquotes so the eye finds them at speed. Bold for the price line, the ask, and both
 silences.
 
-**Headings by exact string, every run.** Beat 5 writes into seven of them by name and a drifted
+**Headings by exact string, every run.** Beat 4 writes into seven of them by name and a drifted
 heading is a section that silently stops receiving writes:
 
 `## THE ONE FIX` · `## THE QUESTIONS I ASK · minutes 5 to 40` · `## WHEN THEY PUSH · minutes 50 to

@@ -1,7 +1,7 @@
 # Gates and rungs
 
-Read this before deciding the rungs (beat 1), before printing block 3 of a sheet (beat 3),
-and before grading a call (beat 4). It carries the reasoning behind the five gates and the
+Read this before deciding the rungs (beat 1), before PRE prints its price row (beat 3), and
+before grading a call (beat 4). It carries the reasoning behind the five gates and the
 whole descope ladder. The SKILL body carries what passes; this file carries why, and what to do
 when the number has to move.
 
@@ -21,23 +21,23 @@ earns them). A cost nobody can price is not a cost sentence.
 
 ## The hour, in four bands
 
-The sheet prints these on the blocks themselves, so nobody does arithmetic at minute forty.
+PRE prints these on its screen, so nobody does arithmetic at minute 40.
 
-| Band | Minutes | The block |
+| Band | Minutes | The script section |
 |---|---|---|
-| Open | 0 to 5 | Block 1 |
-| Diagnose | 5 to 40 | Block 2 |
-| Pitch | 40 to 50 | Block 3 |
-| Ask, and the objections it raises | 50 to 60 | Blocks 4 and 5 |
+| Open | 0 to 5 | THE OPEN, the one personal question inside it |
+| Diagnose | 5 to 40 | THE QUESTIONS I ASK |
+| Pitch | 40 to 50 | THE PITCH, then THE PRICE, AND THE SILENCE |
+| Ask, and the objections it raises | 50 to 60 | THE ASK, WHEN THEY PUSH, HOW THE HOUR ENDS |
 
-Thirty-five of the sixty minutes are questions about their business and ten are the pitch.
+35 of the 60 minutes are questions about their business and 10 are the pitch.
 Flipping that ratio is a pitch guessing out loud at what they care about for half an hour.
 
 ## The descope rungs
 
 Three rungs, decided once at beat 1 and written into `squad/sales.md` under `## THE RUNGS`, then
-read onto the sheet at beat 3, so a rung gets read instead of invented under pressure. This file
-is the only home of the ladder; the sales document and the sheet both point here.
+read from there on the call, so a rung gets read instead of invented under pressure. This file is
+the only home of the ladder; the script points here.
 
 | Rung | What it is |
 |---|---|

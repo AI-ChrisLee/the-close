@@ -6,8 +6,8 @@ over any memory of the buckets, and this file and the skill change in one edit.
 
 Every reply gets one bucket, with the reason written next to it in the founder's own terms so
 they can disagree with it. **The Status column is not a judgment call:** the bucket decides it,
-because that column in the Outreach Sheet moves one way only and a guessed value is expensive to
-undo.
+handed back as text for the founder's own hand, because that column in the Outreach Sheet moves
+one way only and a guessed value is expensive to undo.
 
 | Bucket | What it sounds like | The move | The next touch | Status |
 |---|---|---|---|---|
@@ -17,10 +17,10 @@ undo.
 | Not now | "after the summer", "we're mid-launch" | Get the date in their words | The date they gave, quoted; no date given, ask for one | `NOT NOW` |
 | No | "not interested", "remove me", anything hostile | One line, the shortest in the batch, row closed | None, ever | `CLOSED` |
 
-A reply with no ask in it gets no bucket and stays in the warm morning; its row still moves to
-`TALKING`, because a person who answered is a person you are talking to. `DEMO SENT` belongs to
-Warm Extract and never gets written from a reply. The bucket's next touch is the date that goes
-back in the row's `Next touch` cell; a date nobody wrote down is a follow-up that never fires.
+A reply with no ask in it gets no bucket and one real question back; its row still moves to
+`TALKING`, because a person who answered is a person you are talking to. The bucket's next touch
+is the date that goes back in the row's `Next touch` cell, by the founder's hand; a date nobody
+wrote down is a follow-up that never fires.
 
 ## Tiebreaks, so the same reply always lands the same way
 
@@ -32,15 +32,15 @@ back in the row's `Next touch` cell; a date nobody wrote down is a follow-up tha
 - A handoff inside their own company (talk to my partner, email our ops lead) is **interested**,
   and the draft asks for the introduction instead of pitching the new person cold. **A name
   somewhere else is a referral, not this deal:** the draft thanks them and asks for the
-  introduction, and the new name goes back to Warm Extract as an A row with the referrer
-  written into its HOW YOU KNOW THEM line. A referred name is the strongest row on any list.
+  introduction, and the new name goes onto the Warm tab of the Outreach Sheet by the founder's
+  hand, the referrer's name in the memo. A referred name is the strongest row on any list.
 - A reply that names an incumbent and asks a real question is a **question**, not an objection.
   Answer it from the offer document in one line first, then ask the test question second. "We have an
   editor already but he is slow, what would you do different" is somebody asking to be sold to,
   and testing it before answering it reads as a dodge.
 - A price complaint from somebody who was never given a price is an **objection** about value.
-  From somebody who was never pitched at all it is a conversation: one question back, and it
-  stays in the warm morning.
+  From somebody who was never pitched at all it is a conversation: one question back, and no
+  bucket.
 - **An auto-reply is not a reply.** An out of office carries no ask, so it gets no bucket and no
   draft, and it never counts in the day's replies number. It still gets a row write: move that
   person's next touch to the day after the return date they gave, quoted in their words, and
@@ -56,12 +56,12 @@ raise anything before paying. The call message carries the booking link off the 
 says what the call decides, including that a number arrives before they hang up. **Neither link
 exists yet: the door is the call, and the message asks for their two best times instead of
 offering yours.** Answer a money question with a way to pay, never with a calendar. What happens
-on the call belongs to the sheet at beat 3, not to the draft.
+on the call belongs to the script and to PRE, not to the draft.
 
 ## What every draft has to be
 
 Short enough to have been typed on a phone, carrying one ask, quoting their own words back, and
-**never discounting.** Objections get tested and not answered, the same move as block 4. Where
+**never discounting.** Objections get tested and not answered, the same move as WHEN THEY PUSH. Where
 `squad/sales.md` exists, the draft uses its price line, its proof and any objection answer the
 ledger already proved; a reply is not the place to invent a second way of saying the offer.
 
@@ -73,9 +73,6 @@ deal it was written for.
 
 ## After it goes out
 
-One bump, counted day 4 from the message that went out, and nothing after it. **A reply retires
-that person's unsent warm touches,** because those were written for silence: strike the day 4 and
-day 9 touches for that person by name, and say in one line that
-you did. The draft file stops being the schedule the moment they answer, and a touch left
-standing in it fires on top of this thread the next warm morning. Nobody gets two messages in one
-day.
+One bump, counted day 4 from the message that went out, and nothing after it. **A reply ends
+whatever follow-up was planned for that person's silence:** say so in one line, so the next touch
+is this thread's date and nothing else. Nobody gets two messages in one day.
