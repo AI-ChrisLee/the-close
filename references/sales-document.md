@@ -50,13 +50,14 @@ What the founder will never say or do on a call, off `## 3 · THE NEVER-LIST` in
 income promises, no invented numbers, no discount for the same work, no fake deadline, plus this
 market's own worst habits. Read before WHEN THEY PUSH gets written, and again before it gets used.
 
-## THE WARRANTY, AS I SAY IT (only when the offer document carries one)
+## THE WARRANTY, AS I SAY IT (when the offer document carries one, or is not yet confirmed)
 The warranty word for word in substance, plus the one sentence the founder says when a buyer asks
 what happens if it does not work. Only what the founder controls, never an outcome.
 
 Held here so it is never improvised while money is on the table. Spoken at one moment only: the
-"what if it does not work" branch in WHEN THEY PUSH. Absent when `squad/business.md` has no
-warranty section; never invented to fill the heading.
+"what if it does not work" branch in WHEN THEY PUSH. Absent when `squad/business.md` is confirmed
+and carries no warranty section; never invented to fill the heading. On an unconfirmed document
+the heading stands and reads `(none yet)`, because the warranty is still being decided.
 
 ## THE RUNGS
 Three, decided once so a rung gets read instead of invented under pressure. Read only from the
@@ -219,6 +220,9 @@ carry:** one invented here is one the founder has to keep in real life.
 > is done, and what they have>`."
 
 The price is not said inside the pitch. It gets its own section, and its own silence.
+
+**The deck.** The deck on the screen at minute 40, when G7 built one: the four beats get said
+over its slides, and no slide carries the price.
 
 **The other receipts**, listed under the beats, each with one line saying which situation it
 fits, so the right one gets picked instead of all of them getting used. A number without how it
@@ -393,7 +397,7 @@ A "what moved it" cell holding a sentence that worked on a real call gets promot
 PUSH as that objection's standing line. The row stays here; the sentence gets said there.
 
 ## WHAT BUYERS SAID
-Verbatim lines only, each with its source label in the same form Warm Extract uses: `(sales
+Verbatim lines only, each with its source label in the same form the Winning Offer's warm entry uses: `(sales
 call · Marcus R · 2026-09-04)`, with ` · rough` added when the transcript was app-written. What the problem costs them, what they already pay for, what they
 asked for that nobody sells. Never a paraphrase, never a line nobody said.
 

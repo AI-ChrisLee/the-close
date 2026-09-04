@@ -1,7 +1,7 @@
 # The Close: install in 60 seconds
 
-The part of an Execution Squad that runs the money conversation. Warm Extract listened and the
-Winning Offer decided; this one sells. It builds ONE file, `squad/sales.md`, your sales script:
+The part of an Execution Squad that runs the money conversation. The Winning Offer listened to
+your warm calls and decided; this one sells. It builds ONE file, `squad/sales.md`, your sales script:
 what you say, what it costs, the proof you use, the questions that get a buyer to price their own
 problem, and every objection real buyers have already thrown at you with what moved them. Then
 it runs around every call: one personal question before, a grade and the follow-up after. Call
@@ -9,9 +9,9 @@ six is better than call one.
 
 ## What to bring
 
-Your offer document at `squad/business.md` (the draft Warm Extract wrote is enough to start; the
-Winning Offer forges the rest) and your proof at `squad/credibility-bank.md`. Then four things
-only you know: your booking link, your payment link, what delivery looks like in days, and the
+Your offer document at `squad/business.md` (the Winning Offer builds it from your warm calls or
+the market; one with no confirmed stamp yet is enough to start) and your proof at
+`squad/credibility-bank.md`. Then four things only you know: your booking link, your payment link, what delivery looks like in days, and the
 way you say your price out loud. Replies can be sorted before any of that exists; a price cannot
 be quoted before it does.
 
@@ -19,7 +19,7 @@ be quoted before it does.
 
 Drop this whole folder, `references/` included, into `.claude/skills/` in your business folder,
 then quit and reopen Claude Code. One connector: Google Calendar, added in the Claude app under
-Customize, Connectors. It only reads; with cal.com writing your booking answers into the event,
+Settings, Connectors. It only reads; with cal.com writing your booking answers into the event,
 that is the whole pre-call setup. No connector yet? Paste the confirmation email instead.
 
 ## Run it
@@ -46,11 +46,12 @@ what is on disk and picks up at the first thing missing.
 
 One script that gets sharper every call, one client-facing page, one folder per buyer holding
 their words, your pre-call screen and the call's grade, and a pipeline where every row says the
-truth about the money. It never sends anything: it drafts and stages, and your hand presses
+truth about the money. With Google Drive connected (g2) the script also lands in your Google
+Docs and the link is printed; without it, it stays on disk and the run says one line about it. It never sends anything: it drafts and stages, and your hand presses
 send. Signed plus paid is the only thing that makes a client.
 
 ## What comes next
 
-The part that builds the shell you show on the call, in two days. It arrives one episode at a
+The part that builds the deck you show on the call, in two days. It arrives one episode at a
 time. Subscribe (the link under every episode) and each new part lands in your inbox the day its
 episode goes live.

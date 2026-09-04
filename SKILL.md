@@ -1,11 +1,11 @@
 ---
 name: the-close
-description: Use this when money enters a conversation, by inbox or by call. The founder says "build my sales document", "run the Close", "/the-close script", "prep me for [name]", "/the-close pre", "I just got off a call with [name]", "grade this call", "/the-close after", "update the script with this: ...", "sort this reply", "what do I say back", "continue the Close" (picking a stopped run back up), or pastes a reply, a DM, a whole inbox batch, or a call transcript. It builds squad/sales.md, the one general sales script everything they say for money comes out of, renders the client-facing page from it, writes one personal question and one screen before every call, grades the call against the five gates the moment it ends, stages the follow-up before the founder stands up, writes what the call taught back into the script, logs the pipeline row, and sorts every reply into its bucket with a draft under it. One script, sharper after every call. It never sends anything.
+description: Use this when money enters a conversation, by inbox or by call. The founder says "build my sales document", "run the Close", "/the-close script", "prep me for [name]", "/the-close pre", "I just got off a call with [name]", "grade this call", "/the-close after", "update the script with this: ...", "sort this reply", "what do I say back", "continue the Close" (picking a stopped run back up), or pastes a reply, a DM, a whole inbox batch, or a call transcript. It builds squad/sales.md, the one general sales script everything they say for money comes out of, renders the client-facing page from it, writes one personal question and one screen before every call, grades the call against the five gates the moment it ends, stages the follow-up before the founder stands up, writes what the call taught back into the script, logs the pipeline row, and sorts every reply into its bucket with a draft under it. When Google Drive is connected it puts the script in a Google Doc and prints the link. One script, sharper after every call. It never sends anything.
 ---
 
 # The Close
 
-Warm Extract listened and the Winning Offer decided. This skill sells. **Your work, in one
+The Winning Offer listened to your warm calls and decided. This skill sells. **Your work, in one
 line: build one general sales script, put one personal question and one screen in the
 founder's hand before every call, grade the hour against the five gates the moment it ends,
 stage the follow-up, and write what the call taught back into the script.** The founder's part:
@@ -31,8 +31,8 @@ over the `squad/` paths below, which are worked examples. A row reading "(none y
 unanswered field, not an override: the worked-example path stands until this run fills it.
 Legacy repos carry `.claude/spine-roots.md`; read that when no squad-roots.md exists, and write
 squad-roots.md when neither does. A founder with no brand name of their own means `<brand>` is
-their own name. `<first-last>` is firstname-lastname, lowercased, the same folder Warm Extract
-makes; `<date>` is the call's date, `YYYY-MM-DD`.
+their own name. `<first-last>` is firstname-lastname, lowercased, the same folder the Winning
+Offer's warm entry makes; `<date>` is the call's date, `YYYY-MM-DD`.
 
 ## The modes, and how they are called
 
@@ -49,7 +49,7 @@ makes; `<date>` is the call's date, `YYYY-MM-DD`.
 | Beat | Mode |
 |---|---|
 | 0 THE SOURCES | AUTO: the install check, the offer document and the bank, the stack said once |
-| 1 THE SCRIPT | HUMAN INPUT: four answers, then AUTO build, then **STOP · GATE: the agenda line, the price line, whose proof, the dated plan, the founder's yes** |
+| 1 THE SCRIPT | HUMAN INPUT: four answers, then AUTO build, then **STOP · GATE: the agenda line, the price line, whose proof, the dated plan, the founder's yes**; then AUTO: the stamp, the roots row, and the Google Doc when a Drive connector answers |
 | 2 THE PAGE | AUTO: rendered out of the script, printed |
 | 3 PRE | HUMAN INPUT: the name, and a pasted confirmation email or post only when the folder and the calendar hold nothing; then AUTO: the one question, the one screen, saved. No gate |
 | 4 AFTER | HUMAN INPUT: the transcript, the notes, or nothing; then AUTO: the five gates, the debrief, the quotes, the script updated in place (**STOP · GATE only when a standing line would change**), the follow-up staged, then **STOP until the founder says what went out**; then AUTO: gate 5, the pipeline row, the two sheet cells as text |
@@ -67,6 +67,7 @@ order and continue at the first one missing or incomplete.
 |---|---|
 | `squad/sales.md` does not exist | beat 1 |
 | `squad/sales.md` exists and its last line carries no `confirmed <date>` stamp | beat 1, THE GATE ONLY: never rebuild the script |
+| the script is confirmed, the roots file has no `script doc` row, and a Drive connector answers | beat 1's Doc step only: the Doc, the link, the row |
 | the script is confirmed and `squad/sales-page.md` does not exist | beat 2 |
 | a call is booked and `squad/clients/<first-last>/pre/` holds no file for its date | beat 3 |
 | a call has ended and `squad/clients/<first-last>/calls/<date>-debrief.md` does not exist | beat 4 |
@@ -86,16 +87,17 @@ redraft a message the founder says went out.
 2. `squad/sales-page.md`: the one client-facing page, rendered from the script at beat 2.
 3. `squad/clients/<first-last>/pre/<date>.md`: the one screen and the one question, beat 3.
 4. `squad/clients/<first-last>/transcript.md`: whatever beat 4 was given, saved as it came,
-   appended under `## <date> · sales call` when Warm Extract already wrote one.
+   appended under `## <date> · sales call` when the Winning Offer's warm entry already wrote one.
 5. `squad/clients/<first-last>/notes.md`: beat 4 appends the call's verbatim quotes under
-   `## QUOTES`, labeled and dated. Warm Extract's file when it exists; created with that one
-   heading when this run makes the folder. The buyer's words live here and nowhere else.
+   `## QUOTES`, labeled and dated. The file the Winning Offer's warm entry made, when it
+   exists; created with that one heading when this run makes the folder. The buyer's words live here and nowhere else.
 6. `squad/clients/<first-last>/calls/<date>-debrief.md`: the five gates, the one fix, the
    ideas, the follow-up staged, beat 4.
 7. `squad/pipeline.md`: one row per person, seven fields, the file with its header when it
    does not exist yet. The 90-Day Plan reads every row.
-8. `.claude/squad-roots.md`: given the `sales` and `pipeline` rows in place. The `clients` row is
-   Warm Extract's, never written here. Nothing else in it touched.
+8. `.claude/squad-roots.md`: given the `sales`, `pipeline` and `script doc` rows in place. The
+   `clients` row belongs to the Winning Offer's warm entry, never written here. Nothing else in
+   it touched.
 
 Nothing else gets written. Never `squad/calls/`, never `squad/offer-research.md`, never a
 per-person sheet, never a calendar event, never the Outreach Sheet.
@@ -116,44 +118,44 @@ every `squad/clients/*/notes.md`, and `squad/pipeline.md`.
 | The file | What it means here |
 |---|---|
 | last line carries `confirmed <date>` | the offer is forged: the price, the promise, the warranty, the refusals all come from it |
-| holds `## THE DRAFT` and no stamp | enough to build the script. The price is the draft's price line. The warranty and the refusals print `(none yet, G5 forges them)`. A price line still reading `unpriced` is Warm Extract's stop, not this skill's: type the number there, or open G5. This skill never writes `squad/business.md` |
+| exists, and its last line carries no `confirmed` stamp | enough to build the script. The price is its price line. The warranty and the refusals print `(none yet)` where blank. A price line marked `(proposed, not yet said out loud)` is the Winning Offer's stop, not this skill's: say the number out loud there. This skill never writes `squad/business.md` |
 | does not exist | no price to say, no promise to make. Point at the Winning Offer and offer REPLY mode meanwhile, which puts no number in any message |
 
 **No `squad/credibility-bank.md`, or one thinner than the proof needs.** Not a stop. Ask for one
 win with its mechanism at the beat 1 gate, print it marked `(founder's own, not yet banked)`,
-carry the flag on the script's footer, and say in one line that the Winning Offer's step 9
-builds the bank properly.
+carry the flag on the script's footer, and say in one line that THE BANK, the 6 proof
+questions the Winning Offer asks after its yes, builds the bank properly.
 
 **The stack, said once, the first time `script` runs.** Print this block and move on; nothing in
 it is a question.
 
 | | |
 |---|---|
-| The connector | Google Calendar, first party, added in the Claude app (Customize, Connectors, Google Calendar, Connect); Claude Code 2.1.46 or later picks it up. Read access is enough. Detect it by tool-name suffix (`list_events`, `search_events`, `get_event`), never by server name; the ids carry a UUID prefix. Missing: say so, print the click path, carry on. PRE works off a pasted confirmation email |
+| The connector | Google Calendar, first party, added in the Claude app (Settings, Connectors, Google Calendar, Connect); Claude Code 2.1.46 or later picks it up. Read access is enough. Detect it by tool-name suffix (`list_events`, `search_events`, `get_event`), never by server name; the ids carry a UUID prefix. Missing: say so, print the click path, carry on. PRE works off a pasted confirmation email |
 | cal.com | the free plan; the Google Calendar app connected; one 60-minute event type; two booking questions ("What do you sell today?", "What made you book?") plus one optional field ("Your website or LinkedIn URL"); the location by what they pay for: Zoom on Zoom Pro, Cal Video or Google Meet one-on-one when not. cal.com writes the answers into the calendar event's description on every booking, which is what PRE reads |
-| The two walls | Zoom's free plan ends a meeting of 2 or more people at 40 minutes, and the number lands at minute 50. A third person on Google Meet turns the room into a 60-minute one that chimes at minute 50 |
+| The two walls | Zoom's free plan ends every meeting at 40 minutes, one-on-one included, and the number lands at minute 50, so a 60-minute call runs on Zoom Pro, Cal Video or Google Meet. A third person on Google Meet turns the room into a 60-minute one that chimes at minute 50 |
 | Calendly | the lesson says cal.com; a Calendly founder pastes the confirmation email into PRE |
 | Recording | the one paragraph, quoted below |
 
-Quoted from `warm-extract/references/recording.md`, the one place it is written:
+Quoted from `the-winning-offer/references/recording.md`, the one place it is written:
 
-> **A 20-minute warm call.** Zoom, free, hosted from the desktop app (a phone host records
-> nothing). Press Record. When the call ends, drop the file on MacWhisper on a Mac (free, from
-> macwhisper.com) or Buzz on Windows (free, from github.com/chidiwilliams/buzz; the installer is
-> unsigned, so Windows shows "More info", then "Run anyway"). Set the language to the call's,
-> export `.txt`, then paste it or give the path. In person: the phone's recorder, then the same
-> file dropped on the same app. Free Google Meet records nothing; take the call on Zoom or in
-> person.
+> **A 20-minute warm call.** Record on Zoom, free, from the desktop app (a phone host records
+> nothing). When the call ends, hand the file to your squad: it transcribes on the laptop,
+> nothing uploaded. In person: the phone's recorder, then the same file handed over. Free
+> Google Meet records nothing; take the call on Zoom or in person.
 >
-> **A 60-minute sales call.** Zoom Pro writes the transcript itself as a `.vtt`, once cloud
-> recording and the audio transcript are switched on, one time. Or Cal Video or Google Meet,
-> one-on-one, with Meetily on either laptop. An Intel Mac takes Zoom Basic's 40-minute cut
-> instead.
+> **A 60-minute sales call.** Free Zoom ends every meeting at 40 minutes, one-on-one
+> included, so a 60-minute call needs Zoom Pro, which also writes the transcript itself as a
+> `.vtt` once cloud recording and the audio transcript are switched on, one time. No Zoom
+> Pro: take the call on Cal Video or Google Meet and record it on the phone beside you, then
+> hand that file over like any other. The transcriber takes an hour of audio in a few more
+> minutes.
 >
 > **Nothing recorded** means every quote is the founder's memory, labeled
 > `(founder's recollection · Name · date)`.
 >
-> **Transcript file types, both skills:** `.txt`, `.md`, `.srt`, `.vtt`.
+> **Transcript file types, both skills:** `.txt`, `.md`, `.srt`, `.vtt`. Recordings: `.m4a`,
+> `.mp3`, `.wav`, `.mp4`, `.mov`.
 
 Never a bot in the meeting, never the cal.com connector, never Zoom connected to Claude, nothing
 uploaded anywhere.
@@ -209,6 +211,17 @@ founder's and none answerable from disk:
 Any line that fails gets rewritten and reprinted, that line only. On their yes, stamp the
 script's last line `confirmed <today's date>`; that stamp is the only record the gate happened.
 Then add the `sales` row to `.claude/squad-roots.md` if it carries none, no questions asked.
+
+**Then the Google Doc, AUTO.** Look for a Drive connector: a tool whose name ends in
+`create_file` on a server whose name is a UUID prefix. Detect by that suffix and that shape,
+never by a server's own name or description. When one answers, render the script as HTML
+(`<h1>Sales script · <founder name></h1>`, an `<h2>` per script heading, the spoken lines in
+`<p>`, the rungs and the call record as `<table>`, no markdown and no code block), call
+`create_file` with that title (the roots file's `founder name` row; missing, the founder's first
+name from the chat, and nothing invented), `textContent` the HTML and `contentMimeType`
+`text/html`, print the link on one line, and write `| script doc | <link> |` into
+`.claude/squad-roots.md`. No connector: one line, "connect Google Drive (g2) and I put it in Docs
+next time", and carry on. Never a second line about it, never a retry.
 
 ## Beat 2 · THE PAGE
 
@@ -273,8 +286,8 @@ booking answer, quoted back, or the strongest quote in `notes.md`.
 | The clock | 0 to 5 open · 5 to 40 diagnose · 40 to 50 pitch · 50 to 60 ask |
 | The ask | the line, and: then say nothing |
 
-Save it to `squad/clients/<first-last>/pre/<date>.md`, creating the folder when Warm Extract
-never made one. End. No calendar write: the call and the screen sit on the same laptop. A
+Save it to `squad/clients/<first-last>/pre/<date>.md`, creating the folder when the Winning
+Offer's warm entry never made one. End. No calendar write: the call and the screen sit on the same laptop. A
 founder who wants a different question says so, and the file is rewritten.
 
 ## Beat 4 · AFTER
@@ -296,9 +309,12 @@ Take, in this order, and say which one landed:
 3. **Nothing:** six questions. Those two, plus did they say the cost out loud and in what words,
    what number did you say, what did you agree to next, what did they push on.
 
-A recording path (`.m4a`, `.mp4`, Zoom's `audio*.m4a`) is not a rung: answer with one line
-naming the transcriber for their laptop off the recording paragraph in beat 0, and wait. Nothing
-is uploaded anywhere.
+A recording path (`.m4a`, `.mp3`, `.wav`, `.mp4`, `.mov`, Zoom's `audio*.m4a`) is transcribed on
+the laptop, the same way the warm call is: one yes, once, to install the local transcriber, then
+the text lands as rung 1 above. The install and the transcribe step are written once, in
+`the-winning-offer/references/recording.md`; run them from there. Nothing uploads. An install
+that fails gets one line, MacWhisper (Mac) or Buzz (Windows), export `.txt`, hand it back, then
+wait.
 
 Save what landed to `squad/clients/<first-last>/transcript.md`, labeled (transcript, rough
 transcript, or founder's notes), appended under `## <date> · sales call` when the file exists.
@@ -452,7 +468,8 @@ call behind it. Do not re-run the map.
    "founder, <date>"), and count the buyers who asked for it.
 4. At three buyers, one line: this is a signal, not a hunch; open the Winning Offer with the
    count. An idea that would change what is sold or what it costs never lands in the script at
-   all: that is G5's rewrite of `squad/business.md`, and the script copies it after.
+   all: that is the Winning Offer's rewrite of `squad/business.md`, warm off your calls (g4) or
+   cold off the market (g5), and the script copies it after.
 
 ## REPLY mode
 
@@ -493,9 +510,9 @@ it in the first draft back or not at all; a week later nobody remembers which vi
 same label, because an objection is evidence wherever it arrives. Then two cells as text for the
 founder's hand on the Warm tab: the Status off the bucket's own row in
 `references/reply-buckets.md`, never off judgment, and the next touch date. One bump, day 4,
-then nothing; nobody gets two messages in one day. Last, the day's counts for `/bip`:
-`sent N · replies N · calls N · money $N`. Money means cleared: a booked call is not money, and a
-"let's do it" is not money.
+then nothing; nobody gets two messages in one day. Last, one line for tonight's `/bip`: what
+went out today and what it taught. A number goes in only when the founder said it, and money
+means cleared: a booked call is not money, and a "let's do it" is not money.
 
 ## Rules
 
