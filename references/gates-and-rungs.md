@@ -1,8 +1,7 @@
 # Gates and rungs
 
-Read this before deciding the rungs (beat 1), before PRE prints its price row (beat 3), and
-before grading a call (beat 4). It carries the reasoning behind the five gates and the
-whole descope ladder. The SKILL body carries what passes; this file carries why, and what to do
+Read this before deciding the rungs (beat 1) and before grading a call (beat 3). It carries
+the reasoning behind the 4 gates and the whole descope ladder. The SKILL body carries what passes; this file carries why, and what to do
 when the number has to move.
 
 ## Why each gate is what it is
@@ -12,8 +11,7 @@ when the number has to move.
 | 1 LISTEN | No ratio to compute: did they talk more than you did? |
 | 2 DIAGNOSE | 20 questions is an interrogation, 5 is a pitch |
 | 3 ONE PRICE | A range is two prices, and the buyer hears the lower one |
-| 4 NEXT STEP ON THE CALL | A call that ends inside 20 minutes almost never advanced, because a real diagnosis is not a 20 minute conversation |
-| 5 FOLLOW-UP INSIDE THE HOUR | Inside the hour the call is still in their head; tomorrow it is a stranger's message about a half-remembered conversation |
+| 4 NEXT STEP ON THE CALL | "I will send you some information" is how a call dies politely; only a date, a yes or a clean no leaves the hour with something in it |
 
 **A cost said in time or in missed work counts for gate 2** when the founder can name what that
 time is worth ("three weeks of uploads and my views tanked", plus what three weeks of uploads
@@ -21,11 +19,11 @@ earns them). A cost nobody can price is not a cost sentence.
 
 ## The hour, in four bands
 
-PRE prints these on its screen, so nobody does arithmetic at minute 40.
+The script's section headings carry these minutes, so nobody does arithmetic at minute 40.
 
 | Band | Minutes | The script section |
 |---|---|---|
-| Open | 0 to 5 | THE OPEN, the one personal question inside it |
+| Open | 0 to 5 | THE OPEN, three lines |
 | Diagnose | 5 to 40 | THE QUESTIONS I ASK |
 | Pitch | 40 to 50 | THE PITCH, then THE PRICE, AND THE SILENCE |
 | Ask, and the objections it raises | 50 to 60 | THE ASK, WHEN THEY PUSH, HOW THE HOUR ENDS |

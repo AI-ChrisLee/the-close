@@ -56,7 +56,7 @@ raise anything before paying. The call message carries the booking link off the 
 says what the call decides, including that a number arrives before they hang up. **Neither link
 exists yet: the door is the call, and the message asks for their two best times instead of
 offering yours.** Answer a money question with a way to pay, never with a calendar. What happens
-on the call belongs to the script and to PRE, not to the draft.
+on the call belongs to the script, not to the draft.
 
 ## What every draft has to be
 
@@ -67,7 +67,7 @@ ledger already proved; a reply is not the place to invent a second way of saying
 
 **The gate, before the batch prints.** Read every draft back against three fail conditions, and a
 draft that trips one gets rewritten rather than shown: a number the offer document does not carry, a
-second ask anywhere in the message, a claim that is not in the credibility bank. Say which drafts
+second ask anywhere in the message, a claim the script's proof line does not carry. Say which drafts
 were rewritten and why. A batch that goes out carrying one of those three costs the founder the
 deal it was written for.
 
