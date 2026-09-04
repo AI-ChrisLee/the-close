@@ -411,7 +411,18 @@ first when the file is new, and print the row so they see what landed:
 name · source · last bucket or outcome · date · next touch · what went out last · money
 Marcus Reyes · warm, old agency client · interested · 2026-09-04 · 2026-09-08, partner call, invite sent · follow-up email, 41 minutes after the call ·
 Priya Shah · cold, September list · closed won · 2026-09-04 · none · start date sent · $997 cleared 2026-09-04
+Dane Okafor · inbound, "I Built a Cold Email Agent" · question · 2026-09-05 · 2026-09-09, bump · price question answered ·
 ```
+
+**The second field is the attribution, and it carries two parts: how they came, then the one
+thing that brought them.** How they came is `warm`, `cold` or `inbound`. What brought them is
+the founder's own words for a warm contact, the batch for a cold one, and for an inbound reply
+it is **the piece**: the title of the video, post or page they name, copied off
+`squad/content-log.md` when a row matches it. Ask for the piece once, inside the first draft
+that goes back, one line, "Where did you find me?", never twice and never as a guess from
+memory. Until they answer it reads `inbound, source unknown`, and it stays that way. That
+field is the only place money is ever tied to a piece, which is why C6's Sunday read counts
+money whose second part is missing as unattributed instead of assigning it.
 
 The third field holds one of seven values, never a sentence: the five buckets from
 `references/reply-buckets.md` (`interested`, `question`, `objection`, `not now`, `no`), plus
@@ -447,7 +458,8 @@ call behind it. Do not re-run the map.
 
 Trigger: a reply lands and the founder pastes it, one or a batch, saying "sort this", "sort my
 replies", "what do I say back". This is the hour before there is a call, in their own inbox.
-**Warm or cold, every reply sorts here;** the pipeline row's `source` field carries which it was.
+**Warm or cold, every reply sorts here;** the pipeline row's `source` field carries which it was
+and what brought them, by beat 4's rule.
 Do not re-run the map: sort, draft, print, stop, then log what they say went out. Beat 0's
 install check runs first, because this mode leans hardest on a reference file.
 
@@ -471,6 +483,11 @@ where one exists: its price line, its proof, any objection answer the ledger alr
 Print the batch on one screen, interested and question first because those decay fastest, then
 **STOP.** The founder edits, sends by hand, and says what went out.
 
+**A sender with no folder in `squad/clients/` and no row in `squad/pipeline.md` came off a
+piece, and the draft asks so.** One line at the end of the reply, in the founder's own voice,
+"Where did you find me?" That answer is the second half of the pipeline row's source field. Ask
+it in the first draft back or not at all; a week later nobody remembers which video it was.
+
 **Then log.** The pipeline row by beat 4's rule. The buyer's verbatim lines to their folder's
 `notes.md`, labeled `(reply · Name · date)`; an objection also to `## THE OBJECTIONS LEDGER`,
 same label, because an objection is evidence wherever it arrives. Then two cells as text for the
@@ -492,6 +509,8 @@ then nothing; nobody gets two messages in one day. Last, the day's counts for `/
   cannot source.
 - Every quote is verbatim, labeled and dated. Never a paraphrase saved as a quote, never a name
   or a need the buyer did not give.
+- Never invent the source. A piece the buyer did not name is not their source, and a blank
+  second half stays blank until they say it.
 - Every date in the plan comes from the founder's own delivery answer. Never invent a day.
 - The buyer's own words beat anything you write. When their thread says it better, quote it.
 - Grade honestly. A FAIL they disagree with is a conversation; a PASS they did not earn is a deal
