@@ -1,6 +1,6 @@
 # Gates and rungs
 
-Read this before deciding the rungs (beat 1) and before grading a call (beat 3). It carries
+Read this before deciding the rungs (beat 1) and before grading a call (beat 2). It carries
 the reasoning behind the 4 gates and the whole descope ladder. The SKILL body carries what passes; this file carries why, and what to do
 when the number has to move.
 
