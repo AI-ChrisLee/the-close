@@ -1,8 +1,8 @@
 # The Close
 
-This skill is a base. Once you have done it your way, tell your squad "update the skill to do it like this."
+This agent is a base. Once you have done it your way, tell your squad "update the agent to do it like this."
 
-**Install.** Open Claude Code in your company folder and paste: "Install this skill: https://github.com/AI-ChrisLee/the-close. Clone the whole folder into .claude/skills as the-close, without the .git folder."
+**Install.** Open Claude Code in your company folder and paste: "Install this agent: https://github.com/AI-ChrisLee/the-close. Clone the whole folder into .claude/skills as the-close, without the .git folder."
 
 **Quit and reopen Claude Code.**
 

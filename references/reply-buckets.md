@@ -2,7 +2,7 @@
 
 REPLY mode reads this file before sorting a batch and before printing one. It carries how a reply
 gets bucketed, which door the interested ones get, and what every draft has to survive. It wins
-over any memory of the buckets, and this file and the skill change in one edit.
+over any memory of the buckets, and this file and the agent change in one edit.
 
 Every reply gets one bucket, with the reason written next to it in the founder's own terms so
 they can disagree with it.
