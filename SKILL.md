@@ -1,123 +1,116 @@
 ---
 name: the-close
-description: Use this when money enters a conversation, by inbox or by call. The founder says "/the-close script", "I just got off a call with ____. Here is the transcript: ____" (pasted, or a path to it or to the recording), or pastes a reply and says "sort this reply". It builds squad/sales.md, the one sales script everything they say for money comes out of, grades every call against 4 gates with the evidence quoted, files the debrief, writes what the call taught back into the script, and logs the pipeline row. It never sends anything.
+description: Use this when the founder needs the sales script and the booking and payment links, when they type "/the-close" or "/the-close <business>", or say "build my sales script". It makes a 30-minute booking link through their Cal.com connector and a payment link at their own price through their Stripe connector, then writes squad/sales.md with both links on the last line. It never sends, books or charges.
 ---
 
 # The Close
 
-The Winning Offer built the offer document. This agent sells it: one general sales script at `squad/sales.md`, sharper after every call.
+1 output: `squad/sales.md`, the sales script, with a real booking link and a real payment link on its last line.
 
-**First message on a fresh run** (no `squad/sales.md` on disk), say this line first: This agent is a base. Once you have done it your way, tell your squad "update the agent to do it like this."
+**The first message of a fresh run** (no `squad/sales.md` on disk) carries this line, word for word:
 
-**You never send.** No email, no DM, no booking, no payment link, nothing written into any calendar. You draft; their hand presses send.
+> This agent is a base. Once you have done it your way, tell your squad "update the agent to do it like this."
 
-Source order: the offer document `squad/business.md` (the promise, the warranty, the delivery day, the price), then the founder's 3 answers, then the buyer's own words in `squad/clients/<first-last>/notes.md`, which beat anything you write. You are last, and you invent nothing.
+Open `references/the-script.md` first. Missing: say the agent folder came without its `references/`, and stop.
 
-## Sources
+## 1. Read
 
-This agent runs in any founder's repo. `.claude/squad-roots.md` is the per-repo instance file every member-run agent reads first (founder name, product word, and the `clients`, `sales` and `pipeline` rows where a run has written them), and its values win over the `squad/` paths below, which are worked examples. `<brand>` is the roots file's `product word` row, or the founder's own name when that row is missing. `<first-last>` is the folder the Winning Offer's warm entry already made for that person (matched on the first name when that is all the folder carries), firstname-lastname lowercased when none matches. `<date>` is `YYYY-MM-DD`.
+- `squad/business.md`. Missing: say "Run /the-winning-offer first. Your sales script is built off that page." and stop.
+  Take THE SENTENCE, WHO line 1, THE PROBLEM, THE PROMISE, PRICE line 1 and BUYER WORDS.
+- `squad/demos/*/facts.md`. The buyer is the folder the founder names (`/the-close maple-family-dental`), else the folder whose `facts.md` changed last. Say which in 1 line: `Writing it for <business>.`
+  Take FIRST NAME, his business, his facts, and the `LOOM <url>` last line. No demo yet: those stay blanks.
+- `.claude/squad-roots.md`: the founder name, the voice sample, the `product word` row. No founder name: the name `get_me` gives. No voice sample: short plain sentences.
 
-Three files in this agent's folder must open, or the run stops and says the folder came without its `references/`: `references/sales-document.md`, `references/gates-and-rungs.md`, `references/reply-buckets.md`. Those files call the script build beat 1 and the after-a-call run beat 2.
+## 2. Check the connectors
 
-Then read `.claude/squad-roots.md`, `squad/business.md` and every `squad/clients/*/notes.md`. No other source feeds the script.
+Look at the loaded tools before you make anything. A connector is needed only for a link the last line of `squad/sales.md` does not carry yet.
 
-No `squad/business.md`: no price to say, so point at g4 or g5. "sort this reply" still runs, with no number in any message. This agent never writes `squad/business.md`.
+- Cal.com is loaded when tools ending in `get_me`, `get_event_types` and `create_event_type` are on the list.
+- Stripe is loaded when tools ending in `get_stripe_account_info` and `stripe_api_write` are on the list.
 
-**What it writes, and nothing else:** `squad/sales.md` · `squad/clients/<first-last>/transcript.md` · `squad/clients/<first-last>/notes.md` · `squad/clients/<first-last>/calls/<date>-debrief.md` · `squad/pipeline.md` · the `sales` and `pipeline` rows in `.claude/squad-roots.md` (the `clients` row belongs to the Winning Offer's warm entry, never written here). Never `squad/calls/`, never `squad/offer-research.md`, never a per-person sheet, never a pre-call file, never a follow-up draft, never a calendar event.
+1 missing: print its message below, word for word, and stop. Both missing: print the Cal.com steps, then the Stripe steps, with "Then quit Claude Code, open it again in this folder, and type /the-close again." once at the end. Nothing is made until every connector needed is loaded.
 
-## The script · `/the-close script`
-
-One general script, never one per person. The founder opens it with a buyer on the line and runs it top to bottom.
-
-Ask 3 things, in plain words, then build:
-
-1. Your booking link, where a stranger books an hour.
-2. Your payment link, a URL or a handle a stranger can pay by.
-3. One win you can name, and how it happened. None yet is an answer.
-
-Write `squad/sales.md` to `references/sales-document.md`, section by section, to its law. Nothing in it that is not that file's own lines, the offer document, those 3 answers, or the buyer quotes in `squad/clients/*/notes.md`. The price line is drafted off the offer document's PRICE line (its number, or the first rung of its ladder). The plan's last day is the day the offer document promises. The 3 rungs, FULL, MIDDLE and FLOOR, get decided here out of `references/gates-and-rungs.md`: what comes out if the number has to move, never the same thing for less money. Answer 3 is the proof line, marked `(founder's own)`; `(none yet)` runs the pitch on 3 beats.
-
-Self-check before the stop: no angle bracket left in a spoken line, no one buyer's name or fact standing as a general line, no spoken line about what the founder has not built or done yet.
-
-**The gate.** Say the path `squad/sales.md`, never print the file, then hold up 4 lines for the read:
-
-- The open's agenda sentence, promising no more than the offer document does.
-- The price line, its one number in it, never a price `squad/business.md` does not carry.
-- Whose win the proof is. "Mine" is written as mine, and it is said as mine on the call.
-- The plan in days, Day 1 and the offer document's promised day, never phase names. You never date a step the offer document or the founder did not say.
-
-Fix what they change, then their yes. On yes, stamp the script's last line `confirmed <date>` and add the `sales` row to `.claude/squad-roots.md` when it carries none.
-
-Typed again: read what is on disk and continue at the first thing missing, and a debrief or an objection parked with no script gets its writes the first time the script exists. A confirmed script is never rebuilt, and what it already answers is never re-asked. To change a line any time, the founder says the line and what it should read.
-
-## After a call · "I just got off a call with ____. Here is the transcript: ____"
-
-Runs the moment the call ends.
-
-What it takes: a paste, or a path to `.txt`, `.md`, `.srt`, `.vtt`. A recording (`.m4a`, `.mp3`, `.wav`, `.mp4`, `.mov`) is transcribed on the laptop by `the-winning-offer/references/recording.md`, next to this agent's folder; that file missing, say so in one line and ask for a transcript instead. Nothing uploads. An app-written transcript is marked rough in the debrief. Notes only: gates 1 and 2 are graded on the founder's estimate, the debrief says so, and every buyer line off the notes is labeled `(founder's recollection · Name · date)`. Nothing at all: ask what happened, in plain words.
-
-Save what landed to `squad/clients/<first-last>/transcript.md` under a `## <date> · sales call` heading, appended when the file already exists.
-
-**The grade.** One table, PASS or FAIL, never a maybe, the evidence quoted in every row. `references/gates-and-rungs.md` carries the number behind each gate and what counts as a cost sentence; read it before you grade.
-
-| Gate | Passes when |
-|---|---|
-| 1 LISTEN | The buyer talked more than the founder |
-| 2 DIAGNOSE | 11 to 14 real questions, and the buyer said the cost of staying broken out loud |
-| 3 ONE PRICE | One number, said plainly, then silence. No ranges |
-| 4 NEXT STEP ON THE CALL | A date, a yes, or a clean no. Never "I'll send some info" |
-
-Gate 2 fails one way above all: the founder started solving. Say it plainly.
-
-Under the table: the one thing to do differently next call, quoting the moment. What they bought or refused, in their words. Where the deal stands, one of 4 words: closed · next step dated · stalled · dead. Then 2 or 3 ideas for this buyer only, each pointing at the line it came from.
-
-Write `squad/clients/<first-last>/calls/<date>-debrief.md`: which input landed and whether it was rough, the gate table, those 4 parts. Append the buyer's verbatim lines to `squad/clients/<first-last>/notes.md` under `## QUOTES`, each labeled `(sales call · Marcus R · 2026-09-04)`: the cost sentence first, then what they already pay for, what they asked for that nobody sells, and the objection in their words.
-
-**Then 3 writes into `squad/sales.md`, by exact heading string:**
-
-- `## THE ONE FIX` is replaced, not appended: this call's one thing, one line.
-- `## THE OBJECTIONS LEDGER` gains the objection in the buyer's words with the answer that moved it, or increments the count on one already there.
-- `## THE CALL RECORD` gains one row: the date, the name, the 4 grades, where the deal stands, and in the last cell the previous call's one fix with whether it held.
-
-No `squad/sales.md` yet: the debrief holds it all, and the update is parked in one line until the script runs.
-
-**Stop only when the call argues with a line the founder confirmed** (the price, the promise, the warranty, the proof, a rung, a dated step, a spoken line). Print the line as it stands, the buyer's words that argue with it, and the change you propose, then wait for their yes. The price and the promise never move past what `squad/business.md` carries. 3 calls raising the same objection: say so in one line and send them to the Winning Offer, never before 3.
-
-**The row.** Write it into `squad/pipeline.md`, 7 fields, the person's row rewritten in place when one exists, the header line first when the file is new, and print the row so they see what landed.
+**Cal.com not loaded:**
 
 ```
-name · source · last bucket or outcome · date · next touch · what went out last · money
-Marcus Reyes · warm, old agency client · interested · 2026-09-04 · 2026-09-08, partner call · call 2026-09-04, invite sent on it ·
-Dane Okafor · inbound, "I Built a Cold Email Agent" · question · 2026-09-05 · 2026-09-09, bump · price question answered ·
+Your booking link needs Cal.com, and it isn't connected yet. 4 steps:
+1. Make a free cal.com account at the cal.com link in the roadmap.
+2. In Claude, click Customize, then Connectors, then +, then Add custom connector.
+3. Name it Cal.com. URL: https://mcp.cal.com/mcp
+4. Click Add, then sign in to Cal.com.
+Then quit Claude Code, open it again in this folder, and type /the-close again.
 ```
 
-The second field is how they came, then what brought them: `warm`, `cold` or `inbound`, then the founder's own words for a warm contact, the batch for a cold one, the piece an inbound reply named. A piece nobody named reads `inbound, source unknown`, and it stays that way.
+**Stripe not loaded:**
 
-The third field holds one of 7 values, never a sentence: `interested`, `question`, `objection`, `not now`, `no`, plus `signed, not paid` for a yes whose money has not cleared, plus `closed won` once it has. Next step dated is `interested`, a live price push is `objection`, stalled is `not now`, dead is `no`. For a call, "what went out last" is the call and what the founder sent on it. The money field stays blank until a payment clears, then it reads the amount and the date it cleared, `$997 cleared 2026-09-04`. **Signed plus paid is the only thing that makes a client.** Add the `pipeline` row to `.claude/squad-roots.md` when it carries none.
+```
+Your payment link needs Stripe, and it isn't connected yet. 2 steps:
+1. In Claude, click Customize, then Connectors, then +, then Browse connectors, and pick Stripe.
+2. Click Connect, then sign in to Stripe. No Stripe account yet? Make a free one at stripe.com, then sign in.
+Then quit Claude Code, open it again in this folder, and type /the-close again.
+```
 
-Never regrade a call whose debrief is on disk.
+## 3. The booking link
 
-## Sort this reply · "sort this reply"
+1. `get_me`: the username, and the name when the roots file has no founder name.
+2. `get_event_types`: an event type titled `Call with <founder name>` is reused. Never make a second one.
+3. None: `create_event_type` with title `Call with <founder name>`, slug `call-with-<founder name>` lowercased with hyphens, `lengthInMinutes` 30.
+4. The booking link is the event type's `bookingUrl`. No `bookingUrl` in the reply: `https://cal.com/<username>/<slug>`.
 
-`references/reply-buckets.md` runs this mode: read it first. It carries the buckets, the moves, the next touches, the tiebreaks, the door, what every draft has to be, and the gate every draft passes before it prints.
+## 4. The payment link
 
-Sort each reply into one of 5 buckets, the reason next to it in the founder's own terms so they can disagree: interested, question, objection, not now, no. A reply with no ask in it is not sales: a hello gets one real question back and no bucket.
+Stripe's tool names change. Read the live Stripe tool list and use only what is on it.
 
-No offer document is normal here. Put no number in any message, and answer a price question the honest way: it is not priced yet, so what would it be worth to them? Their answer goes to that folder's `notes.md` verbatim. A draft uses the script where one exists: its price line, its proof, any standing answer the ledger already proved.
+1. `get_stripe_account_info`: the account's default currency, and whether it can take real money yet (`charges_enabled`).
+2. PRICE line 1 without its words in parentheses decides what gets made, the same numbers and nothing else:
+   - `one-time`: 1 price, charged once.
+   - `a month`: 1 price, recurring every month.
+   - `setup + $N a month`: 2 prices on the same link, the setup number charged once and $N recurring every month.
+3. Before each write, read that method's live parameters with `stripe_api_details`. Then, through `stripe_api_write`, in this order:
+   - **The product.** Name: the `product word` row, else the noun of THE SENTENCE. List the active products with `stripe_api_read` first; one with this exact name is reused, with any active price that has the same amount, currency and term.
+   - **The price.** `unit_amount` in cents (`$1,500` is `150000`), the account's currency, and `recurring[interval]` = `month` on a monthly one.
+   - **The payment link.** `line_items`, each price at quantity 1.
+4. The payment link is the reply's `url`.
 
-A sender with no folder in `squad/clients/` and no row in `squad/pipeline.md` came off a piece, and the draft asks so: one line at the end, in the founder's own voice, "Where did you find me?" In the first draft back, or never.
+Not able to take real money yet (`charges_enabled` false, `livemode` false, or `test_` in the url): say it in 1 line, "This link won't take real money until Stripe verifies your business." A sandbox link carries `test_`; a live one starts `https://buy.stripe.com/`.
 
-Print the batch, interested and question first, then stop on one line: tell me what went out and I log it. The founder edits and sends by hand.
+## 5. Write the script
 
-Then log. The pipeline row by the rule above. The buyer's verbatim lines to their folder's `notes.md`, labeled `(reply · Name · date)`; an objection also to `## THE OBJECTIONS LEDGER`, parked in one line when no script exists yet. Never create the script here. One bump, day 4, then nothing; nobody gets 2 messages in one day.
+Write `squad/sales.md` whole, to `references/the-script.md`, section by section, to its law. Every line comes from `squad/business.md`, the demo's `facts.md`, or that file. The last line is exactly `Book: <booking url>. Pay: <payment url>.` and nothing comes after it.
+
+Check before you save:
+
+- The price is said once, in THE CALL, and it is PRICE line 1 without its words in parentheses. No other money number anywhere.
+- No price in THE MESSAGE or HOW MUCH.
+- No discount, no payment plan, no guarantee, no money he will make.
+- No fact about the buyer that is not in `facts.md`. A blank stays a blank.
+- No em dash, and the bold lines sound like the voice sample.
+
+## 6. Print
+
+The path `squad/sales.md`, then 3 lines off the file, never the whole file:
+
+1. The message.
+2. The price line.
+3. The client 2 line.
+
+Then: "Change any line by telling me what it should say."
+
+A change: rewrite that line only. A new number goes through /the-winning-offer, because this file only carries PRICE.
+
+## Typed again
+
+- The links on the `Book:` and `Pay:` last line are reused, never made twice.
+- PRICE line 1 no longer matches the price line: make a new payment link for the new PRICE (step 4), update the price line and the `Pay:` link, and say so in 1 line.
+- Rewrite THE MESSAGE and CLIENT 2 for the buyer from step 1. Every other section stays as it is on disk.
+- The founder names who sent this buyer: THE MESSAGE opens with "<that name> just started with me and said you have the same problem."
 
 ## Never
 
-- Never send, never book, never charge, never write to any calendar, never upload a recording.
-- Every number comes from `squad/business.md`. Never a price, a tier, a discount or a payment term the founder did not decide.
-- Every promise and every warranty comes from the offer document, word for word in substance. Never a guarantee.
-- The proof is the founder's own win, with how it happened. Never a claim you cannot source.
-- Every quote is verbatim, labeled and dated. Never a paraphrase saved as a quote.
-- Never invent the source, and never invent a day. A blank stays blank until they say it.
-- One script. A second does not get read.
-- Money means cleared. A booked call is not money, and a "let's do it" is not money.
+- Send, post, book or charge anything. The founder sends the message by hand and sends the payment link himself, on the call.
+- A price that is not PRICE line 1, a range, a discount or a payment plan.
+- A guarantee, or a promise of money he will make.
+- An invented fact about the buyer, an invented win, or an invented quote.
+- A second booking link or payment link when the last line already carries one.
+- Print a key or a token.
+- Write any file but `squad/sales.md`.
