@@ -1,9 +1,9 @@
 ---
-name: the-close
-description: Use this when the founder needs the sales script and the booking and payment links, when they type "/the-close" or "/the-close <business>", or say "build my sales script". It makes a 30-minute booking link through their Cal.com connector and a payment link at their own price through their Stripe connector, then writes squad/sales.md with both links on the last line. It never sends, books or charges.
+name: execution-genesis-close
+description: Use this when the founder needs the sales script and the booking and payment links, when they type "/execution-genesis-close" or "/execution-genesis-close <business>", or say "build my sales script". It makes a 30-minute booking link through their Cal.com connector and a payment link at their own price through their Stripe connector, then writes squad/sales.md with both links on the last line. It never sends, books or charges.
 ---
 
-# The Close
+# execution-genesis-close
 
 1 output: `squad/sales.md`, the sales script, with a real booking link and a real payment link on its last line.
 
@@ -15,9 +15,9 @@ Open `references/the-script.md` first. Missing: say the agent folder came withou
 
 ## 1. Read
 
-- `squad/business.md`. Missing: say "Run /the-winning-offer first. Your sales script is built off that page." and stop.
+- `squad/business.md`. Missing: say "Run /execution-genesis-offer first. Your sales script is built off that page." and stop.
   Take THE SENTENCE, WHO line 1, THE PROBLEM, THE PROMISE, PRICE line 1 and BUYER WORDS.
-- `squad/demos/*/facts.md`. The buyer is the folder the founder names (`/the-close maple-family-dental`), else the folder whose `facts.md` changed last. Say which in 1 line: `Writing it for <business>.`
+- `squad/demos/*/facts.md`. The buyer is the folder the founder names (`/execution-genesis-close maple-family-dental`), else the folder whose `facts.md` changed last. Say which in 1 line: `Writing it for <business>.`
   Take FIRST NAME, his business, his facts, and the `LOOM <url>` last line. No demo yet: those stay blanks.
 - `.claude/squad-roots.md`: the founder name, the voice sample, the `product word` row. No founder name: the name `get_me` gives. No voice sample: short plain sentences.
 
@@ -28,7 +28,7 @@ Look at the loaded tools before you make anything. A connector is needed only fo
 - Cal.com is loaded when tools ending in `get_me`, `get_event_types` and `create_event_type` are on the list.
 - Stripe is loaded when tools ending in `get_stripe_account_info` and `stripe_api_write` are on the list.
 
-1 missing: print its message below, word for word, and stop. Both missing: print the Cal.com steps, then the Stripe steps, with "Then quit Claude Code, open it again in this folder, and type /the-close again." once at the end. Nothing is made until every connector needed is loaded.
+1 missing: print its message below, word for word, and stop. Both missing: print the Cal.com steps, then the Stripe steps, with "Then quit Claude Code, open it again in this folder, and type /execution-genesis-close again." once at the end. Nothing is made until every connector needed is loaded.
 
 **Cal.com not loaded:**
 
@@ -38,7 +38,7 @@ Your booking link needs Cal.com, and it isn't connected yet. 4 steps:
 2. In Claude, click Customize, then Connectors, then +, then Add custom connector.
 3. Name it Cal.com. URL: https://mcp.cal.com/mcp
 4. Click Add, then sign in to Cal.com.
-Then quit Claude Code, open it again in this folder, and type /the-close again.
+Then quit Claude Code, open it again in this folder, and type /execution-genesis-close again.
 ```
 
 **Stripe not loaded:**
@@ -47,7 +47,7 @@ Then quit Claude Code, open it again in this folder, and type /the-close again.
 Your payment link needs Stripe, and it isn't connected yet. 2 steps:
 1. In Claude, click Customize, then Connectors, then +, then Browse connectors, and pick Stripe.
 2. Click Connect, then sign in to Stripe. No Stripe account yet? Make a free one at stripe.com, then sign in.
-Then quit Claude Code, open it again in this folder, and type /the-close again.
+Then quit Claude Code, open it again in this folder, and type /execution-genesis-close again.
 ```
 
 ## 3. The booking link
@@ -96,7 +96,7 @@ The path `squad/sales.md`, then 3 lines off the file, never the whole file:
 
 Then: "Change any line by telling me what it should say."
 
-A change: rewrite that line only. A new number goes through /the-winning-offer, because this file only carries PRICE.
+A change: rewrite that line only. A new number goes through /execution-genesis-offer, because this file only carries PRICE.
 
 ## Typed again
 

@@ -114,7 +114,7 @@ The message to that name opens with:
 
 **"<his name> just started with me and said you have the same problem."**
 
-Then run /the-demo for that name, and /the-close again.
+Then run /execution-genesis-demo for that name, and /execution-genesis-close again.
 
 Book: <booking url>. Pay: <payment url>.
 ```
