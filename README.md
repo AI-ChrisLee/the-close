@@ -4,7 +4,7 @@ This agent is a base. Once you have done it your way, tell your squad "update th
 
 It writes your sales script, `squad/sales.md`: the message that carries your demo, what to say when someone asks the price, the call, and the yes. On the way it makes your booking link and your payment link, so the script ends with both.
 
-**Install.** The 1 line that installs every agent is on aichrislee.com/free. Paste it into Claude Code, then quit and reopen Claude Code once.
+**Install.** Installed with the one line on aichrislee.com/free. Then quit and reopen Claude Code once.
 
 **2 connectors.** Both live in Claude, under Customize, then Connectors.
 
